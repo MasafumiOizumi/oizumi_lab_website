@@ -1,0 +1,283 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { getMembers } from "@/lib/api";
+import { Mail, Globe } from "lucide-react";
+
+export default function Members() {
+    const members = getMembers();
+
+    // Group members by role
+    const groups = {
+        "Principal Investigator": [],
+        "Staff": [],
+        "Postdoc": [],
+        "PhD Student": [],
+        "Master Student": [],
+        "Undergraduate": [],
+        "Visitor": [],
+        "Alumni": {
+            "Researcher": [],
+            "PhD": [],
+            "Master": [],
+            "Undergrad": []
+        }
+    };
+
+    members.forEach((member: any) => {
+        const role = member.role;
+
+        if (role === '准教授') {
+            // @ts-ignore
+            groups["Principal Investigator"].push(member);
+        } else if (role === '特任専門職員') {
+            // @ts-ignore
+            groups["Staff"].push(member);
+        } else if (role === '特任研究員' || role === '学振CPD') {
+            // @ts-ignore
+            groups["Postdoc"].push(member);
+        } else if (['D3', 'D2', 'D1'].includes(role)) {
+            // @ts-ignore
+            groups["PhD Student"].push(member);
+        } else if (['M2', 'M1'].includes(role)) {
+            // @ts-ignore
+            groups["Master Student"].push(member);
+        } else if (['B4', 'B3'].includes(role)) {
+            // @ts-ignore
+            groups["Undergraduate"].push(member);
+        } else if (role === 'Visitor') {
+            // @ts-ignore
+            groups["Visitor"].push(member);
+        } else if (role === '研究員') {
+            // @ts-ignore
+            groups["Alumni"]["Researcher"].push(member);
+        } else if (role === '博士課程修了') {
+            // @ts-ignore
+            groups["Alumni"]["PhD"].push(member);
+        } else if (role === '修士課程修了') {
+            // @ts-ignore
+            groups["Alumni"]["Master"].push(member);
+        } else if (role === '学部卒業') {
+            // @ts-ignore
+            groups["Alumni"]["Undergrad"].push(member);
+        } else {
+            // Fallback
+            // @ts-ignore
+            // groups["Alumni"]["Researcher"].push(member);
+        }
+    });
+
+    const sections = [
+        { title: "Principal Investigator", key: "Principal Investigator" },
+        { title: "Postdocs", key: "Postdoc" },
+        { title: "PhD Students", key: "PhD Student" },
+        { title: "Master Students", key: "Master Student" },
+        { title: "Undergraduate Students", key: "Undergraduate" },
+        { title: "Staff", key: "Staff" },
+        { title: "Visitors", key: "Visitor" },
+        { title: "Alumni", key: "Alumni" },
+    ];
+
+    return (
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+            <Navbar />
+            <main className="section" style={{ flex: 1 }}>
+                <div className="container">
+                    <h1 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                        Members
+                    </h1>
+
+                    {sections.map((section) => {
+                        if (section.key === "Alumni") {
+                            // Special handling for Alumni sub-sections
+                            const alumniGroups = [
+                                { title: "研究員", key: "Researcher" },
+                                { title: "博士課程修了", key: "PhD" },
+                                { title: "修士課程修了", key: "Master" },
+                                { title: "学部卒業", key: "Undergrad" },
+                            ];
+
+                            // Define sorting order for each category
+                            const sortOrders = {
+                                "PhD": ["神谷俊輔", "田口智也"],
+                                "Master": ["阿部剛大", "清水優梨亜", "片岡麻輝", "清岡大毅", "関澤太樹", "神谷俊輔", "田口智也"],
+                                "Undergrad": ["清岡大毅", "阿部剛大", "高橋創", "松田青創楽"]
+                            };
+
+                            // Check if there are any alumni
+                            // @ts-ignore
+                            const hasAlumni = Object.values(groups["Alumni"]).some((arr: any) => arr.length > 0);
+                            if (!hasAlumni) return null;
+
+                            return (
+                                <div key="Alumni" style={{ marginBottom: '4rem' }}>
+                                    <h2 style={{ fontSize: '1.75rem', marginBottom: '2rem', color: 'var(--color-primary)' }}>
+                                        Alumni
+                                    </h2>
+                                    {alumniGroups.map((sub) => {
+                                        // @ts-ignore
+                                        let subMembers = groups["Alumni"][sub.key];
+                                        if (subMembers.length === 0) return null;
+
+                                        // Sort members if order is defined
+                                        // @ts-ignore
+                                        if (sortOrders[sub.key]) {
+                                            subMembers.sort((a: any, b: any) => {
+                                                // @ts-ignore
+                                                const indexA = sortOrders[sub.key].indexOf(a.title);
+                                                // @ts-ignore
+                                                const indexB = sortOrders[sub.key].indexOf(b.title);
+
+                                                // If both are in the list, sort by index
+                                                if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+                                                // If only A is in list, A comes first
+                                                if (indexA !== -1) return -1;
+                                                // If only B is in list, B comes first
+                                                if (indexB !== -1) return 1;
+                                                // Otherwise keep original order (or alphabetical?)
+                                                return 0;
+                                            });
+                                        }
+
+                                        return (
+                                            <div key={sub.key} style={{ marginBottom: '2rem' }}>
+                                                <h3 style={{ fontSize: '1.4rem', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>{sub.title}</h3>
+                                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem 2rem' }}>
+                                                    {subMembers.map((member: any) => (
+                                                        <div key={member.slug} style={{ fontSize: '1.1rem' }}>
+                                                            {member.website ? (
+                                                                <a href={member.website} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', textDecoration: 'none', borderBottom: '1px solid transparent', transition: 'border-color 0.2s' }} className="hover:border-primary">
+                                                                    {member.title}
+                                                                </a>
+                                                            ) : (
+                                                                <span>{member.title}</span>
+                                                            )}
+                                                            {member.bio && (
+                                                                <span style={{ marginLeft: '0.5rem', color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>
+                                                                    {member.bio}
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            );
+                        }
+
+                        // @ts-ignore
+                        const sectionMembers = groups[section.key];
+                        if (sectionMembers.length === 0) return null;
+
+                        const isSimpleList = section.key === "Visitor";
+
+                        // Sort students by grade
+                        if (["PhD Student", "Master Student"].includes(section.key)) {
+                            const gradeOrder: { [key: string]: number } = {
+                                "D3": 1, "D2": 2, "D1": 3,
+                                "M2": 1, "M1": 2
+                            };
+                            sectionMembers.sort((a: any, b: any) => {
+                                const gradeA = gradeOrder[a.role] || 99;
+                                const gradeB = gradeOrder[b.role] || 99;
+                                return gradeA - gradeB;
+                            });
+                        }
+
+                        return (
+                            <div key={section.key} style={{ marginBottom: '4rem' }}>
+                                <h2 style={{ fontSize: '1.75rem', marginBottom: '2rem', color: 'var(--color-primary)' }}>
+                                    {section.title}
+                                </h2>
+
+                                {isSimpleList ? (
+                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem 2rem' }}>
+                                        {sectionMembers.map((member: any) => (
+                                            <div key={member.slug} style={{ fontSize: '1.1rem' }}>
+                                                {member.website ? (
+                                                    <a href={member.website} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', textDecoration: 'none', borderBottom: '1px solid transparent', transition: 'border-color 0.2s' }} className="hover:border-primary">
+                                                        {member.title}
+                                                    </a>
+                                                ) : (
+                                                    <span>{member.title}</span>
+                                                )}
+                                                {member.bio && (
+                                                    <span style={{ marginLeft: '0.5rem', color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>
+                                                        {member.bio}
+                                                    </span>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div style={{
+                                        display: 'grid',
+                                        gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+                                        gap: '2rem'
+                                    }}>
+                                        {sectionMembers.map((member: any) => (
+                                            <div key={member.slug} className="glass" style={{
+                                                padding: '1.5rem',
+                                                borderRadius: 'var(--radius-md)',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                alignItems: 'center',
+                                                textAlign: 'center'
+                                            }}>
+                                                <div style={{
+                                                    width: '120px',
+                                                    height: '120px',
+                                                    borderRadius: '50%',
+                                                    backgroundColor: 'var(--color-surface-alt)',
+                                                    marginBottom: '1rem',
+                                                    overflow: 'hidden'
+                                                }}>
+                                                    {member.image ? (
+                                                        <img src={member.image} alt={member.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                                    ) : (
+                                                        <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-text-muted)' }}>
+                                                            No Image
+                                                        </div>
+                                                    )}
+                                                </div>
+
+                                                <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>
+                                                    {member.website ? (
+                                                        <a href={member.website} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', textDecoration: 'none', borderBottom: '1px solid transparent', transition: 'border-color 0.2s' }} className="hover:border-primary">
+                                                            {member.title}
+                                                        </a>
+                                                    ) : (
+                                                        member.title
+                                                    )}
+                                                </h3>
+                                                <p style={{ color: 'var(--color-accent)', fontWeight: 500, marginBottom: '0.5rem' }}>{member.role}</p>
+
+                                                {member.bio && (
+                                                    <div style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginBottom: '0.5rem' }}>
+                                                        {member.bio}
+                                                    </div>
+                                                )}
+
+                                                {member.email && (
+                                                    <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', fontFamily: 'monospace' }}>
+                                                        Email: {member.email.split('@')[0]}
+                                                    </p>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        );
+                    })}
+
+                    <div style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--border-color)', textAlign: 'center', color: 'var(--color-text-muted)' }}>
+                        <p>※ Emailはat mark g.ecc.u-tokyo.ac.jpをつけてください</p>
+                    </div>
+                </div>
+            </main>
+            <Footer />
+        </div>
+    );
+}

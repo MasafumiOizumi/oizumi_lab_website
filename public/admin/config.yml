@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "publications"
+    label: "Publications"
+    folder: "content/publications"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Authors", name: "authors", widget: "string"}
+      - {label: "Journal/Conference", name: "journal", widget: "string"}
+      - {label: "Year", name: "year", widget: "number", value_type: "int"}
+      - {label: "DOI Link", name: "doi", widget: "string", required: false}
+      - {label: "PDF", name: "pdf", widget: "file", required: false}
+      - {label: "Abstract", name: "body", widget: "markdown", required: false}
+
+  - name: "members"
+    label: "Members"
+    folder: "content/members"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Profile Image", name: "image", widget: "image", required: false}
+      - {label: "Bio", name: "body", widget: "markdown", required: false}
+      - {label: "Email", name: "email", widget: "string", required: false}
+      - {label: "Website", name: "website", widget: "string", required: false}
+
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
