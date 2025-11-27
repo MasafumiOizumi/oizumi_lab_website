@@ -33,7 +33,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Group", name: "group", widget: "select", options: ["Principal Investigator", "Staff", "Postdoc", "PhD Student", "Master Student", "Undergraduate", "Visitor", "Alumni"]}
+      - {label: "Group", name: "group", widget: "select", options: ["Staff", "PhD Student", "Master Student", "Undergraduate", "Visitor", "Alumni"]}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Profile Image", name: "image", widget: "image", required: false}
       - {label: "Bio", name: "body", widget: "markdown", required: false}

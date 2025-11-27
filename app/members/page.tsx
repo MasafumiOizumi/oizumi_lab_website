@@ -272,7 +272,7 @@ export default function Members() {
                                                 )}
 
                                                 {member.email && (
-                                                    <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', fontFamily: 'monospace' }}>
+                                                    <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
                                                         Email: {member.email.split('@')[0]}
                                                     </p>
                                                 )}
