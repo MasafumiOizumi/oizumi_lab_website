@@ -15,10 +15,12 @@ You don't need to write code to update the website! We use an Admin Panel.
     - *Note: You must be added as a "Collaborator" to this repository to log in.*
 
 3.  **What you can edit:**
-    - **News:** Add new announcements.
     - **Publications:** Add new papers (upload PDF, add DOI, etc.).
     - **Members:** Update your profile, photo, and bio.
-    - **Recruitment:** Update job postings.
+    - **News:** Add new announcements.
+    - **Latest Updates:** Update the scrolling notice board on the top page.
+    - **Featured Research:** Update the research highlights on the top page.
+    - **Recruitment (Join Page):** Update job postings and requirements.
 
 ---
 
