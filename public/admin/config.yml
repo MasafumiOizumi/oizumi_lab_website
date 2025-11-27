@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: oizumi-lab/oizumi_lab_website
+  repo: MasafumiOizumi/oizumi_lab_website
   branch: main
   base_url: https://oizumi-lab-website.vercel.app # We will update this if the domain differs, but this is the standard Vercel pattern
   auth_endpoint: api/auth # We will create this route
