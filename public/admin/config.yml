@@ -102,15 +102,52 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
+      - name: "postdocs_en"
+        label: "Postdocs (English)"
+        file: "content/recruitment/postdocs.en.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
       - name: "graduate"
-        label: "Graduate Students"
+        label: "Students"
         file: "content/recruitment/graduate.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-      - name: "undergraduate"
-        label: "Undergraduate Students"
-        file: "content/recruitment/undergraduate.md"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "join"
+        label: "Join Page"
+        file: "content/pages/join.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Page Description", name: "description", widget: "text"}
+          - {label: "Postdocs Card Title", name: "postdocs_title", widget: "string"}
+          - {label: "Postdocs Card Description", name: "postdocs_description", widget: "text"}
+          - {label: "Students Card Title", name: "students_title", widget: "string"}
+          - {label: "Students Card Description", name: "students_description", widget: "text"}
+      - name: "home"
+        label: "Home Page"
+        file: "content/pages/home.md"
+        fields:
+          - {label: "Hero Title Start", name: "hero_title_start", widget: "string"}
+          - {label: "Hero Title Highlight (Colored)", name: "hero_title_highlight", widget: "string"}
+          - {label: "Hero Title End", name: "hero_title_end", widget: "string"}
+          - {label: "Hero Description", name: "hero_description", widget: "text"}
+          - {label: "Button 1 Text", name: "button1_text", widget: "string"}
+          - {label: "Button 1 Link", name: "button1_link", widget: "string"}
+          - {label: "Button 2 Text", name: "button2_text", widget: "string"}
+          - {label: "Button 2 Link", name: "button2_link", widget: "string"}
+      - name: "faq"
+        label: "Student FAQ"
+        file: "content/pages/faq.md"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Categories", name: "categories", widget: "list", fields: [
+              {label: "Category Name", name: "name", widget: "string"},
+              {label: "Q&A List", name: "qa_list", widget: "list", fields: [
+                {label: "Question", name: "question", widget: "string"},
+                {label: "Answer", name: "answer", widget: "markdown"}
+              ]}
+            ]}
