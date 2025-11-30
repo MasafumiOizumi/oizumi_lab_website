@@ -49,7 +49,7 @@ export default async function PIPage() {
                     <div className="max-w-4xl mx-auto">
                         <div className="flex flex-col-reverse md:flex-row gap-8 items-center md:items-start justify-between">
                             <div className="flex-1 pt-2 text-left min-w-0 md:pl-6">
-                                <h1 className="text-3xl font-bold mb-2 tracking-tight text-slate-900">{hero.title}</h1>
+                                <h1 className="!text-2xl font-bold mb-2 tracking-tight text-slate-900">{hero.title}</h1>
                                 <p className="text-lg text-sky-600 mb-3 font-medium">{hero.role}</p>
 
                                 <div className="flex items-center justify-start gap-2 text-slate-500 mb-3 text-base">
@@ -75,7 +75,7 @@ export default async function PIPage() {
                 {/* Selected Publications */}
                 <section className="bg-slate-50 border-y border-slate-100" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Selected Publications
                         </h2>
@@ -122,7 +122,7 @@ export default async function PIPage() {
                 {/* Grants */}
                 <section className="bg-white" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Grants
                         </h2>
@@ -140,7 +140,7 @@ export default async function PIPage() {
                 {/* Education */}
                 <section className="bg-slate-50 border-y border-slate-100" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Education
                         </h2>
@@ -160,7 +160,7 @@ export default async function PIPage() {
                 {/* Work History */}
                 <section className="bg-white" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Work History
                         </h2>
@@ -180,7 +180,7 @@ export default async function PIPage() {
                 {/* Fellowships */}
                 <section className="bg-slate-50 border-y border-slate-100" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Fellowships
                         </h2>
@@ -198,7 +198,7 @@ export default async function PIPage() {
                 {/* Awards */}
                 <section className="bg-white" style={{ padding: '1.5rem 1.5rem' }}>
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-base font-bold mb-6 flex items-center gap-3 text-slate-800">
+                        <h2 className="!text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                             <span className="w-1 h-4 bg-sky-500 rounded-full"></span>
                             Awards
                         </h2>
