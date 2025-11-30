@@ -22,7 +22,7 @@ export default function FeaturedResearch({ research }: { research: ResearchItem[
                     <h2>Featured Research</h2>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2rem' }}>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {research.map((item) => (
                         <div key={item.id} style={{
                             background: 'var(--color-surface)',
