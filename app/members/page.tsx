@@ -132,8 +132,8 @@ export default function Members() {
                             if (!hasAlumni) return null;
 
                             return (
-                                <div key="Alumni" style={{ marginBottom: '4rem' }}>
-                                    <h2 style={{ fontSize: '1.75rem', marginBottom: '2rem', color: 'var(--color-primary)' }}>
+                                <div key="Alumni" style={{ marginBottom: '2rem' }}>
+                                    <h2 style={{ fontSize: '1.75rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>
                                         Alumni
                                     </h2>
                                     {alumniGroups.map((sub) => {
@@ -162,9 +162,9 @@ export default function Members() {
                                         }
 
                                         return (
-                                            <div key={sub.key} style={{ marginBottom: '2rem' }}>
-                                                <h3 style={{ fontSize: '1.4rem', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>{sub.title}</h3>
-                                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem 2rem' }}>
+                                            <div key={sub.key} style={{ marginBottom: '1rem' }}>
+                                                <h3 style={{ fontSize: '1.4rem', marginBottom: '0.25rem', color: 'var(--color-text-muted)' }}>{sub.title}</h3>
+                                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 2rem' }}>
                                                     {subMembers.map((member: any) => (
                                                         <div key={member.slug} style={{ fontSize: '1.1rem' }}>
                                                             {member.website ? (
