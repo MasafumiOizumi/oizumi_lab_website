@@ -158,6 +158,21 @@ collections:
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Overview", name: "overview", widget: "markdown"}
+      - name: "pi"
+        label: "PI Page (Masafumi Oizumi)"
+        file: "content/pages/pi.md"
+        fields:
+          - {label: "Name", name: "title", widget: "string"}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Profile Image", name: "image", widget: "image"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Contact Info", name: "contact_info", widget: "markdown"}
+          - {label: "Selected Publications", name: "selected_publications", widget: "relation", collection: "publications", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
+          - {label: "Grants", name: "grants", widget: "list", field: {label: "Grant", name: "item", widget: "string"}}
+          - {label: "Education", name: "education", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Degree", name: "degree", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
+          - {label: "Work History", name: "work_history", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
+          - {label: "Fellowships", name: "fellowships", widget: "list", field: {label: "Fellowship", name: "item", widget: "string"}}
+          - {label: "Awards", name: "awards", widget: "list", field: {label: "Award", name: "item", widget: "string"}}
 
   - name: "research_topics"
     label: "Research Topics"
@@ -170,3 +185,45 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Images", name: "images", widget: "list", required: false, field: {label: "Image", name: "image", widget: "image"}}
       - {label: "References", name: "references", widget: "relation", collection: "publications", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
+  - name: "pi_sections"
+    label: "PI Page Sections"
+    files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "content/pi/hero.md"
+        fields:
+          - {label: "Name", name: "title", widget: "string"}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Profile Image", name: "image", widget: "image"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Contact Info", name: "contact_info", widget: "markdown"}
+      - name: "publications"
+        label: "Selected Publications"
+        file: "content/pi/publications.md"
+        fields:
+          - {label: "Selected Publications", name: "selected_publications", widget: "relation", collection: "publications", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true}
+      - name: "grants"
+        label: "Grants"
+        file: "content/pi/grants.md"
+        fields:
+          - {label: "Grants List", name: "grants", widget: "list", field: {label: "Grant", name: "grant", widget: "string"}}
+      - name: "education"
+        label: "Education"
+        file: "content/pi/education.md"
+        fields:
+          - {label: "Education History", name: "education", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Degree", name: "degree", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
+      - name: "work_history"
+        label: "Work History"
+        file: "content/pi/work_history.md"
+        fields:
+          - {label: "Work History", name: "work_history", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
+      - name: "fellowships"
+        label: "Fellowships"
+        file: "content/pi/fellowships.md"
+        fields:
+          - {label: "Fellowships List", name: "fellowships", widget: "list", field: {label: "Fellowship", name: "fellowship", widget: "string"}}
+      - name: "awards"
+        label: "Awards"
+        file: "content/pi/awards.md"
+        fields:
+          - {label: "Awards List", name: "awards", widget: "list", field: {label: "Award", name: "award", widget: "string"}}

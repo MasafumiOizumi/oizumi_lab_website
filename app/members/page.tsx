@@ -1,7 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getMembers, getAlumni } from "@/lib/api";
-import { Mail, Globe } from "lucide-react";
+import { Mail, Globe } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Members() {
     const members = getMembers();
@@ -287,13 +288,7 @@ export default function Members() {
                                                 </div>
 
                                                 <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>
-                                                    {member.website ? (
-                                                        <a href={member.website} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', textDecoration: 'none', borderBottom: '1px solid transparent', transition: 'border-color 0.2s' }} className="hover:border-primary">
-                                                            {member.title}
-                                                        </a>
-                                                    ) : (
-                                                        member.title
-                                                    )}
+                                                    {member.title}
                                                 </h3>
                                                 {member.name_en && (
                                                     <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem', marginTop: '-0.25rem' }}>
@@ -312,6 +307,48 @@ export default function Members() {
                                                     <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
                                                         Email: {member.email.split('@')[0]}
                                                     </p>
+                                                )}
+
+                                                {(member.title === "Masafumi Oizumi" || member.title === "大泉匡史") ? (
+                                                    <Link href="/members/masafumi-oizumi"
+                                                        style={{
+                                                            display: 'inline-flex',
+                                                            alignItems: 'center',
+                                                            gap: '0.4rem',
+                                                            marginTop: '0.5rem',
+                                                            fontSize: '0.9rem',
+                                                            color: 'var(--color-primary)',
+                                                            textDecoration: 'none',
+                                                            padding: '0.3rem 0.8rem',
+                                                            borderRadius: '20px',
+                                                            background: 'var(--color-surface-alt)',
+                                                            transition: 'all 0.2s'
+                                                        }}
+                                                        className="hover:shadow-sm hover:bg-gray-200"
+                                                    >
+                                                        <Globe size={14} /> Website
+                                                    </Link>
+                                                ) : (
+                                                    member.website && (
+                                                        <a href={member.website} target="_blank" rel="noopener noreferrer"
+                                                            style={{
+                                                                display: 'inline-flex',
+                                                                alignItems: 'center',
+                                                                gap: '0.4rem',
+                                                                marginTop: '0.5rem',
+                                                                fontSize: '0.9rem',
+                                                                color: 'var(--color-primary)',
+                                                                textDecoration: 'none',
+                                                                padding: '0.3rem 0.8rem',
+                                                                borderRadius: '20px',
+                                                                background: 'var(--color-surface-alt)',
+                                                                transition: 'all 0.2s'
+                                                            }}
+                                                            className="hover:shadow-sm hover:bg-gray-200"
+                                                        >
+                                                            <Globe size={14} /> Website
+                                                        </a>
+                                                    )
                                                 )}
                                             </div>
                                         ))}
