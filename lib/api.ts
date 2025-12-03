@@ -28,6 +28,30 @@ export function getPublications() {
     return allPublications.sort((a: any, b: any) => (a.year < b.year ? 1 : -1));
 }
 
+export function getPublicationsJp() {
+    const publicationsDir = path.join(contentDirectory, "publications_jp");
+
+    if (!fs.existsSync(publicationsDir)) {
+        return [];
+    }
+
+    const fileNames = fs.readdirSync(publicationsDir);
+    const allPublications = fileNames.map((fileName) => {
+        const fullPath = path.join(publicationsDir, fileName);
+        const fileContents = fs.readFileSync(fullPath, "utf8");
+        const { data, content } = matter(fileContents);
+
+        return {
+            slug: fileName.replace(/\.md$/, ""),
+            ...data,
+            content,
+        };
+    });
+
+    // Sort by year (descending)
+    return allPublications.sort((a: any, b: any) => (a.year < b.year ? 1 : -1));
+}
+
 export function getMembers() {
     const membersDir = path.join(contentDirectory, "members");
 

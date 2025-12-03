@@ -8,6 +8,7 @@ const navItems = [
     { name: "Home", href: "/" },
     { name: "Research", href: "/research" },
     { name: "Publications", href: "/publications" },
+    { name: "Publications (JP)", href: "/publications_jp" },
     { name: "Members", href: "/members" },
     { name: "Join", href: "/join" },
     { name: "News", href: "/news" },
