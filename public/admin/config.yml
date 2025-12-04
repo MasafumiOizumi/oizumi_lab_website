@@ -212,7 +212,8 @@ collections:
       - {label: "Order Weight", name: "weight", widget: "number", default: 10, value_type: "int"}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "References", name: "references", widget: "relation", collection: "publications_jp", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
+      - {label: "References (JP)", name: "references", widget: "relation", collection: "publications_jp", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
+      - {label: "References (EN)", name: "references_en", widget: "relation", collection: "publications", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
   - name: "pi_sections"
     label: "PI Page Sections"
     files:

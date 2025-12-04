@@ -12,8 +12,16 @@ description: >-
 
 
   本研究室では、単に数理技術を開発するだけでなく、実験研究者との共同研究により、脳活動データの解析によって提案手法の有効性の実証も行っています。
-image: /images/uploads/student_research_1.png
-references:
+image: https://res.cloudinary.com/dvee1a4ol/image/upload/v1764852994/BtoB_communication_brb06a.png
+references: []
+references_en:
+  - 'Is my "red" your "red"?: Evaluating structural correspondences between
+    color similarity judgments using unsupervised alignment.'
   - "Unsupervised Alignment in Neuroscience: Introducing a Toolbox for
     Gromov-Wasserstein Optimal Transport"
+  - Investigating Fine-and Coarse-grained Structural Correspondences Between
+    Deep Neural Networks and Human Object Image Similarity Judgments Using
+    Unsupervised Alignment.
+  - Unsupervised alignment reveals structural commonalities and differences in
+    neural representations of natural scenes across individuals and brain areas
 ---

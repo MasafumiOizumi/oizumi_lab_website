@@ -5,6 +5,9 @@ import path from 'path';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import { ExternalLink, FileText } from "lucide-react";
 import { getPublications, getPublicationsJp as getPublicationsJP } from '../../../../lib/api';
 
@@ -25,7 +28,8 @@ interface StudentResearchTopic {
     description: string;
     weight: number;
     image?: string;
-    references?: string[]; // List of titles
+    references?: string[]; // List of titles (JP)
+    references_en?: string[]; // List of titles (EN)
 }
 
 function getStudentResearchTopics(): StudentResearchTopic[] {
@@ -43,6 +47,7 @@ function getStudentResearchTopics(): StudentResearchTopic[] {
             weight: data.weight || 10,
             image: data.image,
             references: data.references || [],
+            references_en: data.references_en || [],
         };
     });
 
@@ -85,7 +90,10 @@ export default function StudentResearch() {
                                 }}>
                                     <div style={{ minWidth: '300px' }}>
                                         <div className="markdown-content" style={{ marginBottom: '2rem', fontSize: '1rem', lineHeight: '1.7' }}>
-                                            <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                                            <ReactMarkdown
+                                                remarkPlugins={[remarkMath]}
+                                                rehypePlugins={[rehypeRaw, rehypeKatex]}
+                                            >
                                                 {topic.description}
                                             </ReactMarkdown>
                                         </div>
@@ -112,11 +120,11 @@ export default function StudentResearch() {
                                         )}
 
                                         {/* References */}
-                                        {topic.references && topic.references.length > 0 && (
+                                        {((topic.references && topic.references.length > 0) || (topic.references_en && topic.references_en.length > 0)) && (
                                             <div style={{ background: 'var(--color-surface)', padding: '1.5rem', borderRadius: 'var(--radius-md)' }}>
                                                 <h3 style={{ fontSize: '1rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--color-text-muted)' }}>参考文献</h3>
                                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                                                    {topic.references.map((refTitle, refIndex) => {
+                                                    {[...(topic.references || []), ...(topic.references_en || [])].map((refTitle, refIndex) => {
                                                         if (typeof refTitle !== 'string') return null;
                                                         // Normalize spaces: replace newlines and multiple spaces with a single space
                                                         const normalizedRefTitle = refTitle.replace(/\s+/g, ' ').trim().toLowerCase();
