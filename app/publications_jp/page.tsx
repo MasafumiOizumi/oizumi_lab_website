@@ -14,7 +14,7 @@ export default function PublicationsJp() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h1 style={{ font-size: '2rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         日本語出版物
                     </h1>
 
@@ -47,7 +47,7 @@ export default function PublicationsJp() {
                         ))}
                     </div>
 
-                    <h1 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h1 style={{ font-size: '2rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         インタビュー
                     </h1>
 
