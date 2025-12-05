@@ -25,22 +25,21 @@ export default function News() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ fontSize: '2.5rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h2 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         News
-                    </h1>
+                    </h2>
 
                     <div className="news-list">
                         {years.map((year) => (
                             <div key={year} style={{ marginBottom: '3rem' }}>
-                                <h2 style={{
-                                    fontSize: '1.75rem',
+                                <h3 style={{
                                     marginBottom: '1rem',
                                     color: 'var(--color-primary)',
                                     borderBottom: '1px solid var(--color-surface-alt)',
                                     paddingBottom: '0.5rem'
                                 }}>
                                     {year}
-                                </h2>
+                                </h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
                                     {newsByYear[year].map((item: any) => (
                                         <li key={item.slug} style={{
