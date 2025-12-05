@@ -103,7 +103,7 @@ export default function Members() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h1 style={{ fontSize: '2.5rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         Members
                     </h1>
 
