@@ -12,9 +12,9 @@ export default function Publications() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ fontSize: '2.5rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h2 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         Publications
-                    </h1>
+                    </h2>
 
                     <div className="publications-list">
                         {publications.map((pub: any, index: number) => (
@@ -23,9 +23,9 @@ export default function Publications() {
                                     {publications.length - index}.
                                 </div>
                                 <div>
-                                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
                                         {pub.title.endsWith('.') ? pub.title.slice(0, -1) : pub.title}
-                                    </h3>
+                                    </h4>
                                     <p className="text-muted" style={{ marginBottom: '0.15rem', fontSize: '0.95rem' }}>{pub.authors.replace(/,?\s+and\s+([^,]+)$/, ', $1')}</p>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', fontSize: '0.95rem' }}>
                                         <span style={{ fontStyle: 'italic' }}>
