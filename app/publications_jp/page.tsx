@@ -14,9 +14,9 @@ export default function PublicationsJp() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ fontSize: '2rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h2 class="jp" style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         日本語出版物
-                    </h1>
+                    </h2>
 
                     <div className="publications-list" style={{ marginBottom: '4rem' }}>
                         {jpPublications.map((pub: any, index: number) => (
@@ -25,9 +25,9 @@ export default function PublicationsJp() {
                                     {jpPublications.length - index}.
                                 </div>
                                 <div>
-                                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
                                         {pub.title}
-                                    </h3>
+                                    </h4>
                                     <p style={{ marginBottom: '0.15rem', fontSize: '0.95rem', color: 'black' }}>{pub.authors}</p>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', fontSize: '0.95rem' }}>
                                         <span style={{ fontStyle: 'italic' }}>
@@ -47,9 +47,9 @@ export default function PublicationsJp() {
                         ))}
                     </div>
 
-                    <h1 style={{ fontSize: '2rem', marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h2 class="jp" style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         インタビュー
-                    </h1>
+                    </h2>
 
                     <div className="publications-list">
                         {interviews.map((pub: any, index: number) => (
@@ -58,9 +58,9 @@ export default function PublicationsJp() {
                                     {interviews.length - index}.
                                 </div>
                                 <div>
-                                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', lineHeight: '1.4' }}>
                                         {pub.title}
-                                    </h3>
+                                    </h4>
                                     <p style={{ marginBottom: '0.15rem', fontSize: '0.95rem', color: 'black' }}>{pub.authors}</p>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', fontSize: '0.95rem' }}>
                                         <span style={{ fontStyle: 'italic' }}>
