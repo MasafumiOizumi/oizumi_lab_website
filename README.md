@@ -18,9 +18,8 @@ You don't need to write code to update the website! We use an Admin Panel.
     - **Publications:** Add new papers (upload PDF, add DOI, etc.).
         - **Publications (JP):** For Japanese publications.
         - **Publications (EN):** For English publications.
+    - **Research Page:** Update the main research topics and descriptions.
     - **Student Research:** Update the "Research Introduction" page for students.
-        - You can cite papers from both Japanese and English publication lists using "References (JP)" and "References (EN)" fields.
-        - **LaTeX Support:** You can use LaTeX for mathematical equations (e.g., `$E=mc^2$`).
     - **Members:** Update your profile, photo, and bio.
     - **News:** Add new announcements.
     - **Latest Updates:** Update the scrolling notice board on the top page.
