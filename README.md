@@ -16,6 +16,11 @@ You don't need to write code to update the website! We use an Admin Panel.
 
 3.  **What you can edit:**
     - **Publications:** Add new papers (upload PDF, add DOI, etc.).
+        - **Publications (JP):** For Japanese publications.
+        - **Publications (EN):** For English publications.
+    - **Student Research:** Update the "Research Introduction" page for students.
+        - You can cite papers from both Japanese and English publication lists using "References (JP)" and "References (EN)" fields.
+        - **LaTeX Support:** You can use LaTeX for mathematical equations (e.g., `$E=mc^2$`).
     - **Members:** Update your profile, photo, and bio.
     - **News:** Add new announcements.
     - **Latest Updates:** Update the scrolling notice board on the top page.
@@ -54,11 +59,24 @@ If you want to change the design or add new features, follow these steps.
     Visit [http://localhost:3000](http://localhost:3000).
 
 ### Project Structure
+
 - `app/`: Main application code (Pages, Layouts).
+    - `app/join/students/research/`: The new Student Research page.
 - `components/`: Reusable UI components (Navbar, Footer, etc.).
 - `content/`: Markdown files for the content (Database).
+    - `content/publications/`: English publications.
+    - `content/publications_jp/`: Japanese publications.
+    - `content/student_research/`: Content for the Student Research page.
 - `public/`: Static assets (Images).
-- `public/admin/`: Configuration for Decap CMS.
+- `public/admin/`: Configuration for Decap CMS (`config.yml`).
+- `lib/`: Helper functions (API for fetching markdown content).
+
+### Key Features
+
+- **Decap CMS Integration:** Content management without coding.
+- **Dual Reference System:** The Student Research page allows citing publications from both Japanese and English collections.
+- **LaTeX Rendering:** Mathematical equations in markdown are rendered using `remark-math` and `rehype-katex`.
+- **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
 
 ## 🚀 Deployment
 
