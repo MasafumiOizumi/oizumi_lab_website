@@ -74,7 +74,7 @@ export default function Research() {
             <Navbar />
             <main style={{ flex: 1 }}>
                 <div className="container section" style={{ paddingBottom: '2rem', paddingTop: '2rem' }}>
-                    <h1 style={{ marginBottom: '2rem', fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-0.02em' }}>{pageData.title}</h1>
+                    <h2 style={{ marginBottom: '2rem', fontWeight: 800, letterSpacing: '-0.02em' }}>{pageData.title}</h2>
 
                     {/* Overview */}
                     <div className="markdown-content" style={{ marginBottom: '4rem', fontSize: '1rem', lineHeight: '1.6', maxWidth: '900px' }}>
@@ -94,7 +94,7 @@ export default function Research() {
                             }}>
                                 {/* Left Column: Text */}
                                 <div style={{ minWidth: '300px' }}>
-                                    <h2 style={{
+                                    <h3 style={{
                                         fontSize: '1.8rem',
                                         fontWeight: 700,
                                         marginBottom: '1.5rem',
@@ -102,7 +102,7 @@ export default function Research() {
                                         borderBottom: '2px solid var(--color-primary)'
                                     }}>
                                         {topic.title}
-                                    </h2>
+                                    </h3>
                                     <div className="markdown-content" style={{ marginBottom: '2rem', fontSize: '1rem', lineHeight: '1.7' }}>
                                         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
                                             {topic.description}
@@ -112,7 +112,7 @@ export default function Research() {
                                     {/* References */}
                                     {topic.references && topic.references.length > 0 && (
                                         <div style={{ background: 'var(--color-surface)', padding: '1.5rem', borderRadius: 'var(--radius-md)' }}>
-                                            <h3 style={{ fontSize: '1rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--color-text-muted)' }}>Key Publications</h3>
+                                            <h5 style={{ fontWeight: 600, marginBottom: '0.75rem', color: 'var(--color-text-muted)' }}>Key Publications</h5>
                                             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                                                 {topic.references.map((refTitle, refIndex) => {
                                                     if (typeof refTitle !== 'string') return null;

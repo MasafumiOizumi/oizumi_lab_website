@@ -103,9 +103,9 @@ export default function Members() {
             <Navbar />
             <main className="section" style={{ flex: 1 }}>
                 <div className="container">
-                    <h1 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
+                    <h2 style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1rem' }}>
                         Members
-                    </h1>
+                    </h2>
 
                     {sections.map((section) => {
                         if (section.key === "Alumni") {
@@ -152,9 +152,9 @@ export default function Members() {
 
                             return (
                                 <div key="Alumni" style={{ marginBottom: '2rem' }}>
-                                    <h2 style={{ fontSize: '1.75rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>
+                                    <h3 style={{ marginBottom: '1rem', color: 'var(--color-primary)' }}>
                                         Alumni
-                                    </h2>
+                                    </h3>
                                     {alumniGroups.map((sub) => {
                                         // @ts-ignore
                                         let subMembers = groups["Alumni"][sub.key];
@@ -182,7 +182,7 @@ export default function Members() {
 
                                         return (
                                             <div key={sub.key} style={{ marginBottom: '1rem' }}>
-                                                <h3 style={{ fontSize: '1.4rem', marginBottom: '0.25rem', color: 'var(--color-text-muted)' }}>{sub.title}</h3>
+                                                <h4 style={{ fontSize: '1.4rem', marginBottom: '0.25rem', color: 'var(--color-text-muted)' }}>{sub.title}</h4>
                                                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 2rem' }}>
                                                     {subMembers.map((member: any) => (
                                                         <div key={member.slug} style={{ fontSize: '1.1rem' }}>
@@ -266,9 +266,9 @@ export default function Members() {
 
                         return (
                             <div key={section.key} style={{ marginBottom: '4rem' }}>
-                                <h2 style={{ fontSize: '1.75rem', marginBottom: '2rem', color: 'var(--color-primary)' }}>
+                                <h3 style={{ marginBottom: '2rem', color: 'var(--color-primary)' }}>
                                     {section.title}
-                                </h2>
+                                </h3>
 
                                 {isSimpleList ? (
                                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem 2rem' }}>
@@ -321,9 +321,9 @@ export default function Members() {
                                                     )}
                                                 </div>
 
-                                                <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>
+                                                <h4 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>
                                                     {member.title}
-                                                </h3>
+                                                </h4>
                                                 {member.name_en && (
                                                     <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem', marginTop: '-0.25rem' }}>
                                                         {member.name_en}

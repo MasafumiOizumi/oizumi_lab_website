@@ -36,7 +36,7 @@ export default function Join() {
             <Navbar />
             <main style={{ flex: 1 }}>
                 <div className="container section" style={{ paddingBottom: '1rem', paddingTop: '2rem' }}>
-                    <h1 style={{ marginBottom: '1rem', fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-0.02em' }}>{data.title}</h1>
+                    <h2 style={{ marginBottom: '1rem', fontWeight: 800, letterSpacing: '-0.02em' }}>{data.title}</h2>
                     <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
                         {data.description}
                     </p>
@@ -53,7 +53,7 @@ export default function Join() {
                                 cursor: 'pointer',
                                 border: '1px solid var(--border-color)'
                             }}>
-                                <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>{data.postdocs_title}</h2>
+                                <h4 style={{ marginBottom: '1rem', color: 'var(--color-primary)' }}>{data.postdocs_title}</h4>
                                 <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
                                     {data.postdocs_description}
                                 </p>
@@ -72,7 +72,7 @@ export default function Join() {
                                 cursor: 'pointer',
                                 border: '1px solid var(--border-color)'
                             }}>
-                                <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>{data.students_title}</h2>
+                                <h4 style={{ marginBottom: '1rem', color: 'var(--color-primary)' }}>{data.students_title}</h4>
                                 <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
                                     {data.students_description}
                                 </p>
