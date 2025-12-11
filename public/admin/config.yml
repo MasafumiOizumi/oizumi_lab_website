@@ -87,7 +87,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "notices"
-    label: "Latest Updates"
+    label: "Announcements"
     folder: "content/notices"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -174,21 +174,7 @@ collections:
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Overview", name: "overview", widget: "markdown"}
-      - name: "pi"
-        label: "PI Page (Masafumi Oizumi)"
-        file: "content/pages/pi.md"
-        fields:
-          - {label: "Name", name: "title", widget: "string"}
-          - {label: "Role", name: "role", widget: "string"}
-          - {label: "Profile Image", name: "image", widget: "image"}
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Contact Info", name: "contact_info", widget: "markdown"}
-          - {label: "Selected Publications", name: "selected_publications", widget: "relation", collection: "publications", search_fields: ["title"], value_field: "title", display_fields: ["title", "year"], multiple: true, required: false}
-          - {label: "Grants", name: "grants", widget: "list", field: {label: "Grant", name: "item", widget: "string"}}
-          - {label: "Education", name: "education", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Degree", name: "degree", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
-          - {label: "Work History", name: "work_history", widget: "list", fields: [{label: "Period", name: "period", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Institution", name: "institution", widget: "string"}]}
-          - {label: "Fellowships", name: "fellowships", widget: "list", field: {label: "Fellowship", name: "item", widget: "string"}}
-          - {label: "Awards", name: "awards", widget: "list", field: {label: "Award", name: "item", widget: "string"}}
+
 
   - name: "research_topics"
     label: "Research Topics"

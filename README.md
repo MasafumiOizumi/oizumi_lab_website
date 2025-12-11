@@ -22,9 +22,11 @@ You don't need to write code to update the website! We use an Admin Panel.
     - **Student Research:** Update the "Research Introduction" page for students.
     - **Members:** Update your profile, photo, and bio.
     - **News:** Add new announcements.
-    - **Latest Updates:** Update the scrolling notice board on the top page.
+    - **Announcements:** Update the scrolling notice board on the top page.
     - **Featured Research:** Update the research highlights on the top page.
-    - **Recruitment (Join Page):** Update job postings and requirements.
+    - **Join:** Update job postings and recruitment information.
+        - **Postdocs:** For postdoc recruitment.
+        - **Students:** For student recruitment.
 
 ---
 
