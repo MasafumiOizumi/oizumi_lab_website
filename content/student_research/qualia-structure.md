@@ -9,7 +9,7 @@ description: >-
 
 
   本研究室では、上述の考え方に基づいてクオリア構造と脳活動とを結ぶ数学的な関係を調べようとしています(詳細は参考文献参照)。この研究は、クオリア構造を定量化するための心理物理実験と、それに対応する脳活動の計測実験を行う共同研究者と協力して行っています。
-image: https://res.cloudinary.com/dvee1a4ol/image/upload/v1764853042/Theory_of_consciousness_mp15xm.png
+image: /images/uploads/theory_of_consciousness.png
 references:
   - 意識の数理的な理論はどのように実験的に検証されるべきか？
   - あなたの「赤」と私の「赤」は同じ？――自分のクオリアと他人のクオリアをつなぐ数理

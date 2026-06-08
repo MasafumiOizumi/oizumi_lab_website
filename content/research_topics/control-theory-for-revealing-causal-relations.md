@@ -6,7 +6,7 @@ description: A control theory framework can be useful for revealing causal
   quantifying controllability, controllable directions, and control costs in
   neural systems.
 images:
-  - https://res.cloudinary.com/dvee1a4ol/image/upload/v1764401701/Shikauchi_JNS_qpmutl.jpg
+  - /images/uploads/shikauchi_jns.jpg
 references:
   - Quantifying state-dependent control properties of brain dynamics from
     perturbation responses.

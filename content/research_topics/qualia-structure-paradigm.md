@@ -6,8 +6,8 @@ description: We quantify the quality of consciousness, or qualia, based on the
   from psychological experiments, we can compare them across individuals or
   relate them to the relational structures of neural activity.
 images:
-  - https://res.cloudinary.com/dvee1a4ol/image/upload/v1764374510/Supp_anim_neurotypical_neurotypical_z03oz3.gif
-  - https://res.cloudinary.com/dvee1a4ol/image/upload/v1764401392/fig_phenomenology_xcb7al.png
+  - /images/uploads/qualia_neurotypical.gif
+  - /images/uploads/qualia_phenomenology.png
 references:
   - 'Is my "red" your "red"?: Evaluating structural correspondences between
     color similarity judgments using unsupervised alignment.'

@@ -12,7 +12,7 @@ description: >-
 
 
   本研究室では、単に数理技術を開発するだけでなく、実験研究者との共同研究により、脳活動データの解析によって提案手法の有効性の実証も行っています。
-image: https://res.cloudinary.com/dvee1a4ol/image/upload/v1764852994/BtoB_communication_brb06a.png
+image: /images/uploads/btob_communication.png
 references: []
 references_en:
   - 'Is my "red" your "red"?: Evaluating structural correspondences between

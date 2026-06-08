@@ -6,7 +6,7 @@ description: In addition to the standard network theory approach, we have
   or the thermodynamic "cost", relating this quantity to the difference between
   conscious and unconscious states.
 images:
-  - https://res.cloudinary.com/dvee1a4ol/image/upload/v1764398872/Sekizawa_PRX_o6uzqz.png
+  - /images/uploads/sekizawa_prx.png
 references:
   - Decomposing thermodynamic dissipation of linear Langevin systems via
     oscillatory modes and its application to neural dynamics

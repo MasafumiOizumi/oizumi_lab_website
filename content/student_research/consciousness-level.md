@@ -9,7 +9,7 @@ description: >-
 
 
   新しく構築した方法論は、実際の実験データ、例えば睡眠中や麻酔下の脳活動の解析を通じて検証をしています。現在は、脳活動の記録技術が著しく向上し、約1万個の神経細胞の活動を同時記録することができるようになっています(図)。こうした最新の実験データと数理手法を組み合わせて、意識・無意識の境目、あるいは意識レベルの変化に関連する脳活動の特徴付けを試みています。
-image: https://res.cloudinary.com/dvee1a4ol/image/upload/v1764852742/Murayama_lab_two_photon_jasaam.png
+image: /images/uploads/murayama_two_photon.png
 references:
   - 意識の統合情報理論
   - 温度計に意識はあるか？ -- 意識レベルの定量化へ向けた理論と実践

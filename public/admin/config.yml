@@ -10,12 +10,6 @@ local_backend: true
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dvee1a4ol
-    api_key: 349484198756255
-
 collections:
   - name: "publications"
     label: "Publications"

@@ -7,7 +7,7 @@ description: We are working on the theoretical development and experimental
   integrated information and the "complex" (informational core) in real neural
   data.
 images:
-  - https://res.cloudinary.com/dvee1a4ol/image/upload/v1764346254/IIT3.0_ilomyk.png
+  - /images/uploads/iit3.png
 references:
   - "From the Phenomenology to the Mechanisms of Consciousness: Integrated
     Information Theory 3.0"
