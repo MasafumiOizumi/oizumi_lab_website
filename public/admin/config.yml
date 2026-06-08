@@ -65,6 +65,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Name", name: "title", widget: "string"}
+      - {label: "Name (English)", name: "name_en", widget: "string", required: false}
       - {label: "Roles", name: "roles", widget: "select", multiple: true, options: ["研究員", "博士課程修了", "修士課程修了", "学部卒業"]}
       - {label: "Profile Image", name: "image", widget: "image", required: false}
       - {label: "Bio", name: "body", widget: "markdown", required: false}

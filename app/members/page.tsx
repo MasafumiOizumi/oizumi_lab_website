@@ -187,7 +187,7 @@ export default function Members() {
                                                     {subMembers.map((member: any) => (
                                                         <div key={member.slug} style={{ fontSize: '1.1rem' }}>
                                                             {(() => {
-                                                                const hasEnglishName = englishNames[member.title];
+                                                                const hasEnglishName = member.name_en || englishNames[member.title];
                                                                 const displayName = (
                                                                     <>
                                                                         {member.title}
