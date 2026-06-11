@@ -14,7 +14,7 @@ title: 学生募集・研究室見学
 * 既に研究に必要なスキルを持っており、学部生の段階から研究に携わることを希望される方
 * 他、何か早めの訪問を希望する特別な事情がある方
 
-こちらに[大学院進学FAQ](https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/home/%E5%A4%A7%E5%AD%A6%E9%99%A2%E9%80%B2%E5%AD%A6faq)をまとめました。今後随時アップデート予定です。
+こちらに[大学院進学FAQ](https://oizumi-lab-website.vercel.app/join/faq)をまとめました。今後随時アップデート予定です。
 
 ## 博士課程進学希望の方
 
