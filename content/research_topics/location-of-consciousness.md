@@ -10,8 +10,8 @@ images:
 references:
   - "Bidirectionally connected cores in a mouse connectome: Towards extracting
     the brain subnetworks essential for consciousness."
-  - Association of bidirectional network cores in the brain with conscious
-    perception and cognition.
+  - Association of bidirectional network cores in the brain with perceptual
+    awareness and cognition.
   - "Efficient search for informational cores in complex systems: Application to
     brain networks."
 ---

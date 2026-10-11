@@ -16,7 +16,7 @@ references:
 references_en:
   - Decomposing thermodynamic dissipation of linear Langevin systems via
     oscillatory modes and its application to neural dynamics
-  - Single-cell resolution functional networks during sleep are segregated into
+  - Single-cell resolution functional networks during unconsciousness are segregated into
     spatially intermixed modules
   - Quantifying state-dependent control properties of brain dynamics from
     perturbation responses.

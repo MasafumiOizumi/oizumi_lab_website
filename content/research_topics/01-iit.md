@@ -15,6 +15,5 @@ references:
   - Measuring Integrated Information from the Decoding Perspective
   - "Stimulus Set Meaningfulness and Neurophysiological Differentiation: A
     Functional Magnetic Resonance Imaging Study."
-  - Contents of Consciousness Investigated as Integrated Information in Direct
-    Human Brain Recordings
+  - Conscious Perception as Integrated Information Patterns in Human Electrocorticography
 ---

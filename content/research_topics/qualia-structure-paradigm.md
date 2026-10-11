@@ -13,9 +13,9 @@ references:
     color similarity judgments using unsupervised alignment.'
   - "Principal bundle geometry of qualia: Understanding the quality of
     consciousness from symmetry"
-  - Investigating Fine-and Coarse-grained Structural Correspondences Between
+  - Investigating Fine- and Coarse-grained Structural Correspondences Between
     Deep Neural Networks and Human Object Image Similarity Judgments Using
     Unsupervised Alignment.
-  - Correspondence of High-Dimensional Emotion Structures Elicited by Video
-    Clips Between Humans and Multimodal LLMs.
+  - Correspondence of high dimensional emotion structures elicited from video
+    clips between humans and multimodal LLMs.
 ---

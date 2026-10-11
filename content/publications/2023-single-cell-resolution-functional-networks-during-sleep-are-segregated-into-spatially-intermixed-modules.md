@@ -1,11 +1,11 @@
 ---
-title: Single-cell resolution functional networks during sleep are segregated
+title: Single-cell resolution functional networks during unconsciousness are segregated
   into spatially intermixed modules
-authors: Daiki Kiyooka*, Ikumi Oomoto*, Jun Kitazono, Yoshiki Saito, Midori
+authors: Daiki Kiyooka*, Ikumi Oomoto*, Jun Kitazono, Yoshihito Saito, Midori
   Kobayashi, Chie Matsubara, Kenta Kobayashi, Masanori Murayama**, Masafumi
   Oizumi**
-journal: "Cell Reports, in press. "
+journal: "Cell Reports, 45(2), 116902."
 year: 2026
-doi: https://www.biorxiv.org/content/10.1101/2023.09.15.558038v3
+doi: https://doi.org/10.1016/j.celrep.2025.116902
 note: "*, **: equal contribution"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Principal bundle geometry of qualia: Understanding the quality of consciousness from symmetry"
 authors: "Masafumi Oizumi, Chanseok Lim, Ryota Kanai"
-journal: "PsyArXiv"
-year: 2025
-doi: "https://osf.io/preprints/psyarxiv/agupq_v3"
+journal: "PNAS Nexus, 5(9), pgag261."
+year: 2026
+doi: "https://doi.org/10.1093/pnasnexus/pgag261"
 ---

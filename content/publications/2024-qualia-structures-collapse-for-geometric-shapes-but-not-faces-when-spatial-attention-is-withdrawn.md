@@ -1,9 +1,9 @@
 ---
 title: Qualia Structures Collapse for Geometric Shapes, but Not Faces, When
   Spatial Attention Is Withdrawn.
-authors: Elise Rowe, Ken Takeda, Masafumi Oizumi, Joanita D'Souza, Jeroen van
-  Boxtel, and Naotsugu Tsuchiya
-journal: Neuroscience of Consciousness, in press
-year: 2026
-doi: https://osf.io/preprints/psyarxiv/x3pcn
+authors: Elise G. Rowe, Ken Takeda, Masafumi Oizumi, Joanita F. D'Souza,
+  Jeroen J. A. van Boxtel, Naotsugu Tsuchiya
+journal: "Neuroscience of Consciousness, 2025(1), niaf053."
+year: 2025
+doi: https://doi.org/10.1093/nc/niaf053
 ---

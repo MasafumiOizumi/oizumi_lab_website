@@ -19,7 +19,7 @@ references_en:
     color similarity judgments using unsupervised alignment.'
   - "Unsupervised Alignment in Neuroscience: Introducing a Toolbox for
     Gromov-Wasserstein Optimal Transport"
-  - Investigating Fine-and Coarse-grained Structural Correspondences Between
+  - Investigating Fine- and Coarse-grained Structural Correspondences Between
     Deep Neural Networks and Human Object Image Similarity Judgments Using
     Unsupervised Alignment.
   - Unsupervised alignment reveals structural commonalities and differences in

@@ -1,7 +1,7 @@
 ---
 title: "Designing optimal perturbation inputs for system identification in neuroscience."
 authors: "Mikito Ogino, Daiki Sekizawa, Jun Kitazono, and Masafumi Oizumi"
-journal: "bioRxiv."
-year: 2025
-doi: "https://www.biorxiv.org/content/10.1101/2025.03.02.641008v1"
+journal: "eLife, 15, RP110030 (reviewed preprint)."
+year: 2026
+doi: "https://doi.org/10.7554/eLife.110030.1"
 ---
