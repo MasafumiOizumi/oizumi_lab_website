@@ -1,6 +1,7 @@
 ---
 awards:
   - The First Prize NIKON JOICO AWARD 2021
+  - The University of Tokyo Excellent Young Researcher Award 2019
   - Asican Pacific Neural Network Assembly Young Researcher Award 2012
   - Dean Prize, Graduate School of Frontier Sciences (Doctor Course) 2010
   - Japanese Neural Network Society Research Award 2008

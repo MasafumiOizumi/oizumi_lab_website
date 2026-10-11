@@ -6,6 +6,7 @@
     "dev": "concurrently \"next dev\" \"npx decap-server\"",
     "dev:cms": "concurrently \"next dev\" \"npx decap-server\"",
     "build": "next build",
+    "cv": "node cv/generate.js",
     "start": "next start",
     "lint": "eslint",
     "cms": "npx decap-server"

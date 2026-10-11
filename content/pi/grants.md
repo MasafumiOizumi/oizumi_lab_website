@@ -1,6 +1,6 @@
 ---
 grants:
-  - "2021-: JST Moonshot R&D"
+  - "2021-2031: JST Moonshot R&D"
   - "2023-2028: Grant-in-Aid for Transformative Research Areas (A), The Ministry
     of Education, Culture, Sports, Science and Technology, Japan (MEXT)"
   - "2020-2023: Grant-in-Aid for Transformative Research Areas (B), The Ministry

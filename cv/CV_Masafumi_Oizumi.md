@@ -1,353 +1,345 @@
+# Masafumi Oizumi, Ph.D.
 
-<style>
-    body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 11pt;
-        color: #000;
-        line-height: 1.4;
-    }
-    h1, h2 {
-        font-size: 14pt; /* Make them same size and bigger than body */
-        font-weight: bold;
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        border-bottom: none; /* Clean look */
-    }
-    h1 {
-        margin-top: 0;
-    }
-    ul, ol {
-        margin-bottom: 1em;
-        padding-left: 1.5em;
-    }
-    li {
-        margin-bottom: 0.3em;
-    }
-    a {
-        color: #000;
-        text-decoration: none;
-    }
-    .pub-item {
-        display: flex;
-        margin-bottom: 0.6em; /* Spacing between papers */
-    }
-    .pub-number {
-        min-width: 2.5em; /* Fixed width for number for alignment */
-        font-weight: normal; 
-        flex-shrink: 0;
-    }
-    .pub-content {
-        
-    }
-</style>
+Associate Professor<br>
+Department of General Systems Studies<br>
+Graduate School of Arts and Sciences<br>
+The University of Tokyo<br>
+3-8-1 Komaba, Meguro-ku, Tokyo 153-8902, Japan<br>
+Building 16, Room 227B<br>
+E-mail: [c-oizumi@g.ecc.u-tokyo.ac.jp](mailto:c-oizumi@g.ecc.u-tokyo.ac.jp)<br>
+URL: [https://oizumi-lab-website.vercel.app](https://oizumi-lab-website.vercel.app)<br>
+## EDUCATION
 
+2001-2005 B.S. Department of Physics, The University of Tokyo
 
-# Masafumi Oizumi
+2005-2007 M.S. Department of Complexity Science and Engineering, The University of Tokyo (Advisor: Prof Masato Okada)
 
-Associate Professor  
-Department of General Systems Studies  
-Graduate School of Arts and Sciences  
-The University of Tokyo
+2007-2010 Ph.D. Department of Complexity Science and Engineering, The University of Tokyo (Advisor: Prof Masato Okada)
 
-**Address:**  
-3-8-1 Komaba, Meguro-ku, Tokyo 153-8902, Japan  
-Building 16, Room 227B
+## WORK HISTORY
 
-**Email:** c-oizumi@g.ecc.u-tokyo.ac.jp
+Apr, 2019 - present, Associate Professor<br>
+The University of Tokyo, Graduate School of Arts and Sciences, Department of General Systems Studies
 
-## Education
+Mar, 2017 - Mar, 2019, Manager<br>
+Araya Inc., Basic Research Group
 
-- **Ph.D.** (2007-2010)  
-  Department of Complexity Science and Engineering, The University of Tokyo
-- **M.S.** (2005-2007)  
-  Department of Complexity Science and Engineering, The University of Tokyo
-- **B.S.** (2001-2005)  
-  Department of Physics, The University of Tokyo
+Sep, 2014 - Oct, 2016, Visiting Researcher<br>
+Monash University, Monash Biomedical Imaging, Prof Naotsugu Tsuchiya's Lab
 
-## Work History
+Apr, 2014 - Feb, 2017, RIKEN Special Postdoctoral Researcher<br>
+RIKEN, Brain Science Institute, Prof Shun-ichi Amari's Lab
 
-- **Associate Professor** (Apr, 2019 - present)  
-  The University of Tokyo, Graduate School of Arts and Sciences, Department of General Systems Studies
-- **Manager** (Mar, 2017 - Mar, 2019)  
-  Araya Inc., Basic Research Group
-- **Visiting Researcher** (Sep, 2014 - Oct, 2016)  
-  Monash University, Monash Biomedical Imaging, Prof Naotsugu Tsuchiya's Lab
-- **RIKEN Special Postdoctoral Researcher** (Apr, 2014 - Feb, 2017)  
-  RIKEN, Brain Science Institute, Prof Shun-ichi Amari's Lab
-- **Visiting Researcher** (Oct, 2011 - Oct, 2013)  
-  University of Wisconsin-Madison, Prof Giulio Tononi's Lab
-- **JSPS Superlative Postdoctoral Fellow (SPD)** (Apr, 2011 - Mar, 2014)  
-  RIKEN Brain Science Institute, Prof Shun-ichi Amari's Lab
+Oct, 2011 - Oct, 2013, Visiting Researcher<br>
+University of Wisconsin-Madison, Prof Giulio Tononi's Lab
 
-## Grants
+Apr, 2011 - Mar, 2014, JSPS Superlative Postdoctoral Fellow (SPD)<br>
+RIKEN Brain Science Institute, Prof Shun-ichi Amari's Lab
 
-- 2021-: JST Moonshot R&D
-- 2023-2028: Grant-in-Aid for Transformative Research Areas (A), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
-- 2020-2023: Grant-in-Aid for Transformative Research Areas (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
-- 2018-2024: CREST, Japan Science and Technology Agency (JST)
-- 2018-2022: Grant-in-Aid for Scientific Research (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
-- 2014-2017: Grant-in-Aid for Young Scientists (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
+## Grants and Fellowships
 
-## Fellowships
+2021-2031: JST Moonshot R&D
 
-- 2014-2017: RIKEN, Special Postdoctoral Researcher
-- 2011-2014: The Japan Society for the Promotion of Science (JSPS), Research Fellow SPD
-- 2008-2011: The Japan Society for the Promotion of Science (JSPS), Research Fellow DC1
+2023-2028: Grant-in-Aid for Transformative Research Areas (A), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
+
+2020-2023: Grant-in-Aid for Transformative Research Areas (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
+
+2018-2024: CREST, Japan Science and Technology Agency (JST)
+
+2018-2022: Grant-in-Aid for Scientific Research (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
+
+2014-2017: Grant-in-Aid for Young Scientists (B), The Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT)
+
+2014-2017: RIKEN, Special Postdoctoral Researcher
+
+2011-2014: The Japan Society for the Promotion of Science (JSPS), Research Fellow SPD
+
+2008-2011: The Japan Society for the Promotion of Science (JSPS), Research Fellow DC1
 
 ## Awards
 
-- The First Prize NIKON JOICO AWARD 2021
-- Asican Pacific Neural Network Assembly Young Researcher Award 2012
-- Dean Prize, Graduate School of Frontier Sciences (Doctor Course) 2010
-- Japanese Neural Network Society Research Award 2008
-- Dean Prize, Graduate School of Frontier Sciences (Master Course) 2007
-- IEEE CIS Japan Chapter Young Researcher Award 2007
-- Japanese Neural Network Society Young Researcher Award 2006
+The First Prize NIKON JOICO AWARD 2021
 
-## Publications
+The University of Tokyo Excellent Young Researcher Award 2019
 
+Asican Pacific Neural Network Assembly Young Researcher Award 2012
 
-<div class="pub-item">
-    <div class="pub-number">49.</div>
-    <div class="pub-content">Soh Takahashi*, Sasaki Masaru*, Ken Takeda, Masafumi Oizumi (2026). Investigating Fine-and Coarse-grained Structural Correspondences Between Deep Neural Networks and Human Object Image Similarity Judgments Using Unsupervised Alignment. <em>Neural Networks, 195, 108222</em>. *: equal contribution.</div>
-</div>
+Dean Prize, Graduate School of Frontier Sciences (Doctor Course) 2010
 
-<div class="pub-item">
-    <div class="pub-number">48.</div>
-    <div class="pub-content">Elise Rowe, Ken Takeda, Masafumi Oizumi, Joanita D'Souza, Jeroen van Boxtel, and Naotsugu Tsuchiya (2026). Qualia Structures Collapse for Geometric Shapes, but Not Faces, When Spatial Attention Is Withdrawn. <em>Neuroscience of Consciousness, in press</em></div>
-</div>
+Japanese Neural Network Society Research Award 2008
 
-<div class="pub-item">
-    <div class="pub-number">47.</div>
-    <div class="pub-content">Daiki Kiyooka*, Ikumi Oomoto*, Jun Kitazono, Yoshiki Saito, Midori Kobayashi, Chie Matsubara, Kenta Kobayashi, Masanori Murayama**, Masafumi Oizumi** (2026). Single-cell resolution functional networks during sleep are segregated into spatially intermixed modules. <em>Cell Reports, in press</em>. *, **: equal contribution</div>
-</div>
+Dean Prize, Graduate School of Frontier Sciences (Master Course) 2007
 
-<div class="pub-item">
-    <div class="pub-number">46.</div>
-    <div class="pub-content">Taguchi, Tomoya, Jun Kitazono, Shuntaro Sasai, and Masafumi Oizumi (2025). Association of bidirectional network cores in the brain with conscious perception and cognition. <em>The Journal of Neuroscience, 45(17), e0802242025</em></div>
-</div>
+IEEE CIS Japan Chapter Young Researcher Award 2007
 
-<div class="pub-item">
-    <div class="pub-number">45.</div>
-    <div class="pub-content">Tononi G, Albantakis L, Barbosa L, Boly M, Cirelli C, Comolatti R, Ellia F, Findlay G, Girardi Casali A, Grasso M, Haun AM, Hendren J, Hoel E, Koch C, Maier A, Marshall W, Massimini M, Mayner WGP, Oizumi M, Szczotka J, Tsuchiya N, Zaeemzadeh A (2025). Consciousness or pseudo-consciousness? A clash of two paradigms. <em>Nature Neuroscience, 28, 694–702</em></div>
-</div>
+Japanese Neural Network Society Young Researcher Award 2006
 
-<div class="pub-item">
-    <div class="pub-number">44.</div>
-    <div class="pub-content">Haruka Asanuma, Naoko Koide-Majima, Ken Nakamura, Takato Horii, Shinji Nishimoto, Masafumi Oizumi (2025). Correspondence of High-Dimensional Emotion Structures Elicited by Video Clips Between Humans and Multimodal LLMs. <em>Scientific Reports, 15, 32175</em></div>
-</div>
+## PUBLICATIONS
 
-<div class="pub-item">
-    <div class="pub-number">43.</div>
-    <div class="pub-content">Asaki Kataoka, Yoshihiro Nagano, and Masafumi Oizumi (2025). Exploring internal representation of self-supervised networks: few-shot learning abilities and comparison with human semantics and recognition of objects. <em>Frontiers in Computational Neuroscience, in press</em></div>
-</div>
+### Published or in Press
 
-<div class="pub-item">
-    <div class="pub-number">42.</div>
-    <div class="pub-content">Genji Kawakita*, Ariel Zeleznikow-Johnston*, Ken Takeda*, Naotsugu Tsuchiya**, Masafumi Oizumi** (2025). Is my "red" your "red"?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment. <em>iScience, 28, 3, 112029</em>. *, **: equal contribution</div>
-</div>
+60. Tamami Nakano, Satoe Awada, Masafumi Oizumi, Daisuke Kuwano, Kazuyo Tanji, Nobumasa Kato, Noburo Saji (2026)<br>
+Atypical Tactile Expressions Using Japanese Ideophones in Adults With Autism Spectrum Disorders.<br>
+Journal of Autism and Developmental Disorders, advance online publication. [DOI](https://doi.org/10.1007/s10803-026-07267-7)
 
-<div class="pub-item">
-    <div class="pub-number">41.</div>
-    <div class="pub-content">Ken Takeda*, Masaru Sasaki*, Kota Abe, Masafumi Oizumi (2025). Unsupervised Alignment in Neuroscience: Introducing a Toolbox for Gromov-Wasserstein Optimal Transport. <em>Journal of Neuroscience Methods, 419, 110443</em>. *: equal contribution. The Toolbox is available on [GitHub](https://oizumi-lab.github.io/GWTune/)</div>
-</div>
+59. Ken Takeda, Masafumi Oizumi, Ryo Karakida (2026)<br>
+Continual Learning in Modern Hopfield Networks with an Application to Diffusion Models.<br>
+Advances in Neural Information Processing Systems (NeurIPS), in press. [DOI](https://arxiv.org/abs/2605.27975)
 
-<div class="pub-item">
-    <div class="pub-number">40.</div>
-    <div class="pub-content">Ken Takeda*, Kota Abe*, Jun Kitazono and Masafumi Oizumi (2025). Unsupervised alignment reveals structural commonalities and differences in neural representations of natural scenes across individuals and brain areas. <em>iScience, 28, 5112427</em>. *: equal contribution.</div>
-</div>
+58. Soh Takahashi\*, Masaru Sasaki\*, Ken Takeda, Masafumi Oizumi (2026)<br>
+Investigating Fine- and Coarse-grained Structural Correspondences Between Deep Neural Networks and Human Object Image Similarity Judgments Using Unsupervised Alignment.<br>
+Neural Networks, 195, 108222. \*: equal contribution. [DOI](https://doi.org/10.1016/j.neunet.2025.108222)
 
-<div class="pub-item">
-    <div class="pub-number">39.</div>
-    <div class="pub-content">Shunsuke Kamiya, Taiga Mitamura, Muneki Ikeda, Masafumi Oizumi (2025). Unsupervised Neuronal Matching with Spontaneous Neuronal ActivityUnsupervised Neuronal Matching with Spontaneous Neuronal Activity. <em>In ICLR 2025 Workshop on Representational Alignment</em></div>
-</div>
+57. Daiki Sekizawa, Sosuke Ito, Masafumi Oizumi (2026)<br>
+Koopman Mode Decomposition of Thermodynamic Dissipation in Nonlinear Langevin Dynamics.<br>
+Proceedings of the National Academy of Sciences, 123(25), e2530617123. [DOI](https://doi.org/10.1073/pnas.2530617123)
 
-<div class="pub-item">
-    <div class="pub-number">38.</div>
-    <div class="pub-content">Daiki Sekizawa, Sosuke Ito, Masafumi Oizumi (2024). Decomposing thermodynamic dissipation of linear Langevin systems via oscillatory modes and its application to neural dynamics. <em>Physical Review X 14 (4), 041003</em></div>
-</div>
+56. Ikumi Oomoto, Daiki Kiyooka, Masafumi Oizumi, Masanori Murayama (2026)<br>
+Multi-area single-cell calcium imaging dataset of the mouse cortex across wakefulness, sleep, and anesthesia.<br>
+Scientific Data, advance online publication. [DOI](https://doi.org/10.1038/s41597-026-08202-2)
 
-<div class="pub-item">
-    <div class="pub-number">37.</div>
-    <div class="pub-content">Genji Kawakita, Ariel Zeleznikow-Johnston, Naotsugu Tsuchiya, Masafumi Oizumi (2024). Gromov–Wasserstein unsupervised alignment reveals structural correspondences between the color similarity structures of humans and large language models. <em>Scientific Reports 14 (1), 15917</em></div>
-</div>
+55. Masafumi Oizumi, Chanseok Lim, Ryota Kanai (2026)<br>
+Principal bundle geometry of qualia: Understanding the quality of consciousness from symmetry.<br>
+PNAS Nexus, 5(9), pgag261. [DOI](https://doi.org/10.1093/pnasnexus/pgag261)
 
-<div class="pub-item">
-    <div class="pub-number">36.</div>
-    <div class="pub-content">Shunsuke Kamiya, Jun Kitazono, Masafumi Oizumi (2024). Koopman Operator Based Dynamical Similarity Analysis for Data-driven Quantification of Distance between Dynamics. <em>In ICLR 2024 Workshop on Representational Alignment</em></div>
-</div>
+54. Yumi Shikauchi, Mitsuaki Takemi, Leo Tomasevic, Jun Kitazono, Hartwig R. Siebner, and Masafumi Oizumi (2026)<br>
+Quantifying state-dependent control properties of brain dynamics from perturbation responses.<br>
+The Journal of Neuroscience, 46(5), e0364252025. [DOI](https://doi.org/10.1523/JNEUROSCI.0364-25.2025)
 
-<div class="pub-item">
-    <div class="pub-number">35.</div>
-    <div class="pub-content">Shunsuke Kamiya, Genji Kawakita, Shuntaro Sasai, Jun Kitazono, Masafumi Oizumi (2023). Optimal Control Costs of Brain State Transitions in Linear Stochastic Systems. <em>The Journal of Neuroscience, 43 (2), 270-281</em></div>
-</div>
+53. Daiki Kiyooka\*, Ikumi Oomoto\*, Jun Kitazono, Yoshihito Saito, Midori Kobayashi, Chie Matsubara, Kenta Kobayashi, Masanori Murayama\*\*, Masafumi Oizumi\*\* (2026)<br>
+Single-cell resolution functional networks during unconsciousness are segregated into spatially intermixed modules.<br>
+Cell Reports, 45(2), 116902. \*, \*\*: equal contribution [DOI](https://doi.org/10.1016/j.celrep.2025.116902)
 
-<div class="pub-item">
-    <div class="pub-number">34.</div>
-    <div class="pub-content">Jun Kitazono, Yuma Aoki, Masafumi Oizumi (2022). Bidirectionally connected cores in a mouse connectome: Towards extracting the brain subnetworks essential for consciousness. <em>Cerebral Cortex, bhac143</em></div>
-</div>
+52. Tomoya Taguchi, Jun Kitazono, Shuntaro Sasai, Masafumi Oizumi (2025)<br>
+Association of bidirectional network cores in the brain with perceptual awareness and cognition.<br>
+The Journal of Neuroscience, 45(17), e0802242025. [DOI](https://www.jneurosci.org/content/45/17/e0802242025)
 
-<div class="pub-item">
-    <div class="pub-number">33.</div>
-    <div class="pub-content">Genji Kawakita, Shunsuke Kamiya, Shuntaro Sasai, Jun Kitazono, Masafumi Oizumi (2022). Quantifying brain state transition cost via Schrödinger's bridge. <em>Network Neuroscience, 6 (1), 118–134</em></div>
-</div>
+51. Tononi G, Albantakis L, Barbosa L, Boly M, Cirelli C, Comolatti R, Ellia F, Findlay G, Girardi Casali A, Grasso M, Haun AM, Hendren J, Hoel E, Koch C, Maier A, Marshall W, Massimini M, Mayner WGP, Oizumi M, Szczotka J, Tsuchiya N, Zaeemzadeh A (2025)<br>
+Consciousness or pseudo-consciousness? A clash of two paradigms.<br>
+Nature Neuroscience, 28, 694–702. [DOI](https://doi.org/10.1038/s41593-025-01880-y)
 
-<div class="pub-item">
-    <div class="pub-number">32.</div>
-    <div class="pub-content">Keisuke Ota, Yasuhiro Oisi, Takayuki Suzuki, Muneki Ikeda, Yoshiki Ito, Tsubasa Ito, Kenta Kobayashi, Midori Kobayashi, Maya Odagawa, Chie Matsubara, Yoshinori Kuroiwa, Masaru Horikoshi, Junya Matsushita, Hiroyuki Hioki, Masamichi Ohkura, Junichi Nakai, Masafumi Oizumi, Atsushi Miyawaki, Toru Aonishi, Takahiro Ode, Masanori Murayama (2021). Fast scanning high optical invariant two-photon microscopy for monitoring a large neural network activity with cellular resolution. <em>Neuron, 109(11), 1810-1824</em></div>
-</div>
+50. Tadahiro Taniguchi, Masafumi Oizumi, Noburo Saji, Takato Horii, and Naotsugu Tsuchiya (2025)<br>
+Constructive approach to bidirectional influence between qualia structure and language emergence.<br>
+Philosophy and the Mind Sciences, 6. [DOI](https://doi.org/10.33735/phimisci.2025.11765)
 
-<div class="pub-item">
-    <div class="pub-number">31.</div>
-    <div class="pub-content">Kotaro Ishizu, Tomoyo I. Shiramatsu, Rie Hitsuyu, Masafumi Oizumi, Naotsugu Tsuchiya, Hirokazu Takahashi (2021). Information flow in the rat thalamo-cortical system: spontaneous vs. stimulus-evoked activities. <em>Scientific Reports, 11(19252)</em></div>
-</div>
+49. Haruka Asanuma, Naoko Koide-Majima, Ken Nakamura, Takato Horii, Shinji Nishimoto, Masafumi Oizumi (2025)<br>
+Correspondence of high dimensional emotion structures elicited from video clips between humans and multimodal LLMs.<br>
+Scientific Reports, 15, 32175. [DOI](https://doi.org/10.1038/s41598-025-14961-6)
 
-<div class="pub-item">
-    <div class="pub-number">30.</div>
-    <div class="pub-content">Dror Cohen, Shuntaro Sasai, Naotsugu Tsuchiya, Masafumi Oizumi (2020). A general spectral decomposition of causal influences applied to integrated information. <em>The Journal of Neuroscience Methods, 330, 108443</em></div>
-</div>
+48. Asaki Kataoka, Yoshihiro Nagano, and Masafumi Oizumi (2025)<br>
+Exploring internal representations of self-supervised networks: few-shot learning abilities and comparison with human semantics and recognition of objects.<br>
+Frontiers in Computational Neuroscience, 19, 1613291. [DOI](https://doi.org/10.3389/fncom.2025.1613291)
 
-<div class="pub-item">
-    <div class="pub-number">29.</div>
-    <div class="pub-content">Akihiro Eguchi, Takato Horii, Takayuki Nagai, Ryota Kanai, Masafumi Oizumi (2020). An Information Theoretic Approach to Reveal the Formation of Shared Representations. <em>Frontiers in Computational Neuroscience</em></div>
-</div>
+47. Genji Kawakita\*, Ariel Zeleznikow-Johnston\*, Ken Takeda\*, Naotsugu Tsuchiya\*\*, Masafumi Oizumi\*\* (2025)<br>
+Is my "red" your "red"?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment.<br>
+iScience, 28, 3, 112029. \*, \*\*: equal contribution [DOI](https://www.cell.com/iscience/fulltext/S2589-0042%2825%2900289-5)
 
-<div class="pub-item">
-    <div class="pub-number">28.</div>
-    <div class="pub-content">Jun Kitazono, Ryota Kanai, Masafumi Oizumi (2020). Efficient search for informational cores in complex systems: Application to brain networks. <em>Neural Networks, 132, 232-244</em></div>
-</div>
+46. Elise G. Rowe, Ken Takeda, Masafumi Oizumi, Joanita F. D'Souza, Jeroen J. A. van Boxtel, Naotsugu Tsuchiya (2025)<br>
+Qualia Structures Collapse for Geometric Shapes, but Not Faces, When Spatial Attention Is Withdrawn.<br>
+Neuroscience of Consciousness, 2025(1), niaf053. [DOI](https://doi.org/10.1093/nc/niaf053)
 
-<div class="pub-item">
-    <div class="pub-number">27.</div>
-    <div class="pub-content">Sosuke Ito, Masafumi Oizumi, and Shun-ichi Amari (2020). Unified framework for the entropy production and the stochastic interaction based on information geometry. <em>Physical Review Research, 2, 033048</em></div>
-</div>
+45. Asaki Kataoka, Nipun Ravindu Wickramanayaka, Yu Togashi, Masafumi Oizumi (2025)<br>
+Spontaneous organization of diverse human color representations: from trichromacy to dichromacy in neural networks trained with retina-like inputs.<br>
+In International Conference on Machine Learning and Applications (ICMLA), 1137-1142. [DOI](https://doi.org/10.1109/ICMLA66185.2025.00175)
 
-<div class="pub-item">
-    <div class="pub-number">26.</div>
-    <div class="pub-content">Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2019). Fisher Information and Natural Gradient Learning in Random Deep Networks. <em>Proceedings of Machine Learning Research, in PMLR 89:694-702</em></div>
-</div>
+44. Ken Takeda\*, Masaru Sasaki\*, Kota Abe, Masafumi Oizumi (2025)<br>
+Unsupervised Alignment in Neuroscience: Introducing a Toolbox for Gromov-Wasserstein Optimal Transport.<br>
+Journal of Neuroscience Methods, 419, 110443. \*: equal contribution. The Toolbox is available on [GitHub](https://oizumi-lab.github.io/GWTune/) [DOI](https://www.sciencedirect.com/science/article/pii/S0165027025000846)
 
-<div class="pub-item">
-    <div class="pub-number">25.</div>
-    <div class="pub-content">Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi, Marco Cuturi (2019). Information Geometry for Regularized Optimal Transport and Barycenters of Patterns. <em>Neural Computation, 31(5), 827-848</em></div>
-</div>
+43. Ken Takeda\*, Kota Abe\*, Jun Kitazono and Masafumi Oizumi (2025)<br>
+Unsupervised alignment reveals structural commonalities and differences in neural representations of natural scenes across individuals and brain areas.<br>
+iScience, 28(5), 112427. \*: equal contribution. [DOI](https://doi.org/10.1016/j.isci.2025.112427)
 
-<div class="pub-item">
-    <div class="pub-number">24.</div>
-    <div class="pub-content">Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2019). Statistical Neurodynamics of Deep Networks: Geometry of Signal Spaces. <em>Nonlinear Theory and Its Applications, IEICE, 10(4), 322-336</em></div>
-</div>
+42. Shunsuke Kamiya, Taiga Mitamura, Muneki Ikeda, Masafumi Oizumi (2025)<br>
+Unsupervised Neuronal Matching with Spontaneous Neuronal Activity.<br>
+In ICLR 2025 Workshop on Representational Alignment. [DOI](https://openreview.net/pdf?id=qAgQqVVwq9)
 
-<div class="pub-item">
-    <div class="pub-number">23.</div>
-    <div class="pub-content">Jun Kitazono, Ryota Kanai, Masafumi Oizumi (2018). Efficient Algorithms for Searching the Minimum Information Partition in Integrated Information Theory. <em>Entropy, 20(3), 173</em></div>
-</div>
+41. Daiki Sekizawa, Sosuke Ito, Masafumi Oizumi (2024)<br>
+Decomposing thermodynamic dissipation of linear Langevin systems via oscillatory modes and its application to neural dynamics.<br>
+Physical Review X 14 (4), 041003. [DOI](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.041003)
 
-<div class="pub-item">
-    <div class="pub-number">22.</div>
-    <div class="pub-content">Shohei Hidaka, Masafumi Oizumi (2018). Fast and exact search for the partition with minimal information loss. <em>PLoS ONE, 13(9), e0201126</em></div>
-</div>
+40. Genji Kawakita, Ariel Zeleznikow-Johnston, Naotsugu Tsuchiya, Masafumi Oizumi (2024)<br>
+Gromov–Wasserstein unsupervised alignment reveals structural correspondences between the color similarity structures of humans and large language models.<br>
+Scientific Reports 14 (1), 15917. [DOI](https://www.nature.com/articles/s41598-024-65604-1)
 
-<div class="pub-item">
-    <div class="pub-number">21.</div>
-    <div class="pub-content">Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2018). Information Geometry Connecting Wasserstein Distance and Kullback-Leibler Divergence via the Entropy-Relaxed Transportation Problem. <em>Information Geometry, 1(1), 1-25</em></div>
-</div>
+39. Shunsuke Kamiya, Jun Kitazono, Masafumi Oizumi (2024)<br>
+Koopman Operator Based Dynamical Similarity Analysis for Data-driven Quantification of Distance between Dynamics.<br>
+In ICLR 2024 Workshop on Representational Alignment. [DOI](https://openreview.net/pdf?id=cfO9qeHrKU)
 
-<div class="pub-item">
-    <div class="pub-number">20.</div>
-    <div class="pub-content">Andrew M. Haun, Masafumi Oizumi, Christopher K Kovach, Hiroto Kawasaki, Hiroyuki Oya, Matthew A Howard, Ralph Adolphs, Naotsugu Tsuchiya (2017). Contents of Consciousness Investigated as Integrated Information in Direct Human Brain Recordings. <em>eNeuro, ENEURO-0085-17</em></div>
-</div>
+38. Soh Takahashi, Masaru Sasaki, Ken Takeda, Masafumi Oizumi (2024)<br>
+Self-supervised learning facilitates neural representation structures that can be unsupervisedly aligned to human behaviors.<br>
+In ICLR 2024 Workshop on Representational Alignment. [DOI](https://openreview.net/forum?id=MaFIvgBceX)
 
-<div class="pub-item">
-    <div class="pub-number">19.</div>
-    <div class="pub-content">Shun-ichi Amari, Naotsugu Tsuchiya, Masafumi Oizumi (2016). Geometry of information integration. <em>Information Geometry and its Applications IV (pp. 3-17). Springer, Cham</em></div>
-</div>
+37. Jun Kitazono, Yuma Aoki, Masafumi Oizumi (2023)<br>
+Bidirectionally connected cores in a mouse connectome: Towards extracting the brain subnetworks essential for consciousness.<br>
+Cerebral Cortex, 33(4), 1383-1402. [DOI](https://doi.org/10.1093/cercor/bhac143)
 
-<div class="pub-item">
-    <div class="pub-number">18.</div>
-    <div class="pub-content">Masafumi Oizumi, Shun-ichi Amari, Toru Yanagawa, Naotaka Fujii, Naotsugu Tsuchiya (2016). Measuring Integrated Information from the Decoding Perspective. <em>PLoS Comput Biol, 12(1), e1004654</em></div>
-</div>
+36. Shunsuke Kamiya, Genji Kawakita, Shuntaro Sasai, Jun Kitazono, Masafumi Oizumi (2023)<br>
+Optimal Control Costs of Brain State Transitions in Linear Stochastic Systems.<br>
+The Journal of Neuroscience, 43 (2), 270-281. [DOI](https://www.jneurosci.org/content/43/2/270)
 
-<div class="pub-item">
-    <div class="pub-number">17.</div>
-    <div class="pub-content">Masafumi Oizumi, Naotsugu Tsuchiya, Shun-ichi Amari (2016). Unified Framework for Information Integration Based on Information Geometry. <em>Proceedings of the National Academy of Sciences, 113(51), 14817-14822</em></div>
-</div>
+35. Genji Kawakita, Shunsuke Kamiya, Shuntaro Sasai, Jun Kitazono, Masafumi Oizumi (2022)<br>
+Quantifying brain state transition cost via Schrödinger's bridge.<br>
+Network Neuroscience, 6 (1), 118–134. [DOI](https://doi.org/10.1162/netn_a_00213)
 
-<div class="pub-item">
-    <div class="pub-number">16.</div>
-    <div class="pub-content">Melanie Boly, Shuntaro Sasai, Olivia Gosseries, Masafumi Oizumi, Adenauer Casali, Marcello Massimini, Giulio Tononi (2015). Stimulus Set Meaningfulness and Neurophysiological Differentiation: A Functional Magnetic Resonance Imaging Study. <em>PLoS ONE, 10(5): e0125337</em></div>
-</div>
+34. Keisuke Ota, Yasuhiro Oisi, Takayuki Suzuki, Muneki Ikeda, Yoshiki Ito, Tsubasa Ito, Hiroyuki Uwamori, Kenta Kobayashi, Midori Kobayashi, Maya Odagawa, Chie Matsubara, Yoshinori Kuroiwa, Masaru Horikoshi, Junya Matsushita, Hiroyuki Hioki, Masamichi Ohkura, Junichi Nakai, Masafumi Oizumi, Atsushi Miyawaki, Toru Aonishi, Takahiro Ode, Masanori Murayama (2021)<br>
+Fast, cell-resolution, contiguous-wide two-photon imaging to reveal functional network architectures across multi-modal cortical areas.<br>
+Neuron, 109(11), 1810-1824.e9. [DOI](https://doi.org/10.1016/j.neuron.2021.03.032)
 
-<div class="pub-item">
-    <div class="pub-number">15.</div>
-    <div class="pub-content">Masafumi Oizumi*, Larissa Albantakis*, Giulio Tononi (2014). From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0. <em>PLoS Computational Biology, 10, e1003588</em>. *: equal contribution</div>
-</div>
+33. Kotaro Ishizu, Tomoyo I. Shiramatsu, Rie Hitsuyu, Masafumi Oizumi, Naotsugu Tsuchiya, Hirokazu Takahashi (2021)<br>
+Information flow in the rat thalamo-cortical system: spontaneous vs. stimulus-evoked activities.<br>
+Scientific Reports, 11(19252). [DOI](https://www.nature.com/articles/s41598-021-98660-y)
 
-<div class="pub-item">
-    <div class="pub-number">14.</div>
-    <div class="pub-content">Akinori Mitani, Ryo Sasaki, Masafumi Oizumi, Takanori Uka (2013). A leaky-integrator model as a control mechanism underlying flexible decision making during task switching. <em>PLoS ONE, 8, e59670</em></div>
-</div>
+32. Dror Cohen, Shuntaro Sasai, Naotsugu Tsuchiya, Masafumi Oizumi (2020)<br>
+A general spectral decomposition of causal influences applied to integrated information.<br>
+The Journal of Neuroscience Methods, 330, 108443. [DOI](https://www.sciencedirect.com/science/article/pii/S0165027019303000)
 
-<div class="pub-item">
-    <div class="pub-number">13.</div>
-    <div class="pub-content">Masafumi Oizumi, Ryota Satoh, Hokto Kazama, Masato Okada (2012). Functional differences between global pre- and postsynaptic inhibition in the Drosophila olfactory circuit. <em>Frontiers in Computational Neuroscience, 6:14</em></div>
-</div>
+31. Akihiro Eguchi, Takato Horii, Takayuki Nagai, Ryota Kanai, Masafumi Oizumi (2020)<br>
+An Information Theoretic Approach to Reveal the Formation of Shared Representations.<br>
+Frontiers in Computational Neuroscience. [DOI](https://doi.org/10.3389/fncom.2020.00001)
 
-<div class="pub-item">
-    <div class="pub-number">12.</div>
-    <div class="pub-content">Yasuhiko Igarashi, Masafumi Oizumi, Masato Okada (2012). Theory of correlation in a network with synaptic depression. <em>Physical Review E 85, 016108</em></div>
-</div>
+30. Jun Kitazono, Ryota Kanai, Masafumi Oizumi (2020)<br>
+Efficient search for informational cores in complex systems: Application to brain networks.<br>
+Neural Networks, 132, 232-244. [DOI](https://www.sciencedirect.com/science/article/pii/S0893608020303099)
 
-<div class="pub-item">
-    <div class="pub-number">11.</div>
-    <div class="pub-content">Yosuke Otsubo, Kenji Nagata, Masafumi Oizumi, and Masato Okada (2011). Influence of synaptic depression on memory storage capacity. <em>Journal of the Physical Society of Japan, 80, 084004</em></div>
-</div>
+29. Sosuke Ito, Masafumi Oizumi, and Shun-ichi Amari (2020)<br>
+Unified framework for the entropy production and the stochastic interaction based on information geometry.<br>
+Physical Review Research, 2, 033048. [DOI](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033048)
 
-<div class="pub-item">
-    <div class="pub-number">10.</div>
-    <div class="pub-content">Masafumi Oizumi, Masato Okada, Shun-ichi Amari (2011). Information loss associated with imperfect observation and mismatched decoding. <em>Frontiers in Computational Neuroscience, 5:9</em></div>
-</div>
+28. Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2019)<br>
+Fisher Information and Natural Gradient Learning in Random Deep Networks.<br>
+Proceedings of Machine Learning Research, in PMLR 89:694-702. [DOI](https://proceedings.mlr.press/v89/amari19a.html)
 
-<div class="pub-item">
-    <div class="pub-number">9.</div>
-    <div class="pub-content">Masafumi Oizumi, Keiji Miura, Masato Okada (2010). Analytical investigation of the effects of lateral connections on the accuracy of population coding. <em>Physical Review E, 81, 051905</em></div>
-</div>
+27. Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi, Marco Cuturi (2019)<br>
+Information Geometry for Regularized Optimal Transport and Barycenters of Patterns.<br>
+Neural Computation, 31(5), 827-848. [DOI](https://www.mitpressjournals.org/doi/pdf/10.1162/neco_a_01178)
 
-<div class="pub-item">
-    <div class="pub-number">8.</div>
-    <div class="pub-content">Yosuke Otsubo, Kenji Nagata, Masafumi Oizumi, Masato Okada (2010). Instabilities in associative memory model with synaptic depression and switching phenomena among attractors. <em>Journal of the Physical Society of Japan, 79, 084002</em></div>
-</div>
+26. Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2019)<br>
+Statistical Neurodynamics of Deep Networks: Geometry of Signal Spaces.<br>
+Nonlinear Theory and Its Applications, IEICE, 10(4), 322-336. [DOI](https://www.jstage.jst.go.jp/article/nolta/10/4/10_322/_pdf/-char/en)
 
-<div class="pub-item">
-    <div class="pub-number">7.</div>
-    <div class="pub-content">Yasuhiko Igarashi, Masafumi Oizumi, Masato Okada (2010). Mean field analysis of stochastic neural network models with synaptic depression. <em>Journal of the Physical Society of Japan, 79, 084001</em></div>
-</div>
+25. Jun Kitazono, Ryota Kanai, Masafumi Oizumi (2018)<br>
+Efficient Algorithms for Searching the Minimum Information Partition in Integrated Information Theory.<br>
+Entropy, 20(3), 173. [DOI](https://www.mdpi.com/1099-4300/20/3/173)
 
-<div class="pub-item">
-    <div class="pub-number">6.</div>
-    <div class="pub-content">Ryota Satoh*, Masafumi Oizumi*, Hokto Kazama, Masato Okada (2010). Mechanisms of maximum information preservation in the Drosophila antennal lobe. <em>PLoS ONE, 5, e10644, 2010</em>. *: equal contribution</div>
-</div>
+24. Shohei Hidaka, Masafumi Oizumi (2018)<br>
+Fast and exact search for the partition with minimal information loss.<br>
+PLoS ONE, 13(9), e0201126. [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201126)
 
-<div class="pub-item">
-    <div class="pub-number">5.</div>
-    <div class="pub-content">Masafumi Oizumi, Toshiyuki Ishii, Kazuya Ishibashi, Toshihiko Hosoya, Masato Okada (2010). Mismatched decoding in the brain. <em>The Journal of Neuroscience, 30, 4815-4826</em></div>
-</div>
+23. Shun-ichi Amari, Ryo Karakida, Masafumi Oizumi (2018)<br>
+Information Geometry Connecting Wasserstein Distance and Kullback-Leibler Divergence via the Entropy-Relaxed Transportation Problem.<br>
+Information Geometry, 1(1), 1-25. [DOI](https://link.springer.com/article/10.1007%2Fs41884-018-0002-8)
 
-<div class="pub-item">
-    <div class="pub-number">4.</div>
-    <div class="pub-content">Masafumi Oizumi, Toshiyuki Ishii, Kazuya Ishibashi, Toshihiko Hosoya, Masato Okada (2009). A general framework for investigating how far the decoding process in the brain can be simplified. <em>Advances in Neural Information Processing Systems, 21, 1225-1232</em></div>
-</div>
+22. Hiroki Mori, Masafumi Oizumi (2018)<br>
+Information integration in a globally coupled chaotic system.<br>
+In The 2018 Conference on Artificial Life, 384-385. [DOI](https://doi.org/10.1162/isal_a_00074)
 
-<div class="pub-item">
-    <div class="pub-number">3.</div>
-    <div class="pub-content">Yasuhiko Igarashi, Masafumi Oizumi, Yosuke Otsubo, Kenji Nagata, Masato Okada (2009). Statistical mechanics of attractor neural network models with synaptic depression. <em>Journal of Physics Conference Series, 197, 012018</em></div>
-</div>
+21. Andrew M. Haun, Masafumi Oizumi, Christopher K. Kovach, Hiroto Kawasaki, Hiroyuki Oya, Matthew A. Howard, Ralph Adolphs, Naotsugu Tsuchiya (2017)<br>
+Conscious Perception as Integrated Information Patterns in Human Electrocorticography.<br>
+eNeuro, 4(5), ENEURO.0085-17.2017. [DOI](https://doi.org/10.1523/ENEURO.0085-17.2017)
 
-<div class="pub-item">
-    <div class="pub-number">2.</div>
-    <div class="pub-content">Masafumi Oizumi, Yoichi Miyawaki, Masato Okada (2008). Rate reduction for associative memory model in Hodgkin-Huxley-type network. <em>Journal of the Physical Society of Japan, 77(6), 064802</em></div>
-</div>
+20. Naotsugu Tsuchiya, Andrew Haun, Dror Cohen, Masafumi Oizumi (2016)<br>
+Empirical tests of the integrated information theory of consciousness.<br>
+In The Return of Consciousness: A New Science on Old Questions, 349-374.
 
-<div class="pub-item">
-    <div class="pub-number">1.</div>
-    <div class="pub-content">Masafumi Oizumi, Yoichi Miyawaki, Masato Okada (2007). Higher order effects on rate reduction for networks of Hodgkin-Huxley neurons. <em>Journal of the Physical Society of Japan, 76(4), 044803</em></div>
-</div>
+19. Shun-ichi Amari, Naotsugu Tsuchiya, Masafumi Oizumi (2016)<br>
+Geometry of information integration.<br>
+Information Geometry and its Applications IV (pp. 3-17). Springer, Cham. [DOI](https://link.springer.com/chapter/10.1007/978-3-319-97798-0_1)
+
+18. Masafumi Oizumi, Shun-ichi Amari, Toru Yanagawa, Naotaka Fujii, Naotsugu Tsuchiya (2016)<br>
+Measuring Integrated Information from the Decoding Perspective.<br>
+PLoS Comput Biol, 12(1), e1004654. [DOI](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004654)
+
+17. Masafumi Oizumi, Naotsugu Tsuchiya, Shun-ichi Amari (2016)<br>
+Unified Framework for Information Integration Based on Information Geometry.<br>
+Proceedings of the National Academy of Sciences, 113(51), 14817-14822. [DOI](https://www.pnas.org/content/113/51/14817)
+
+16. Melanie Boly, Shuntaro Sasai, Olivia Gosseries, Masafumi Oizumi, Adenauer Casali, Marcello Massimini, Giulio Tononi (2015)<br>
+Stimulus Set Meaningfulness and Neurophysiological Differentiation: A Functional Magnetic Resonance Imaging Study.<br>
+PLoS ONE, 10(5): e0125337. [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125337)
+
+15. Masafumi Oizumi\*, Larissa Albantakis\*, Giulio Tononi (2014)<br>
+From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0.<br>
+PLoS Computational Biology, 10, e1003588. \*: equal contribution [DOI](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003588)
+
+14. Akinori Mitani, Ryo Sasaki, Masafumi Oizumi, Takanori Uka (2013)<br>
+A leaky-integrator model as a control mechanism underlying flexible decision making during task switching.<br>
+PLoS ONE, 8, e59670. [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059670)
+
+13. Masafumi Oizumi, Ryota Satoh, Hokto Kazama, Masato Okada (2012)<br>
+Functional differences between global pre- and postsynaptic inhibition in the Drosophila olfactory circuit.<br>
+Frontiers in Computational Neuroscience, 6:14. [DOI](https://www.frontiersin.org/articles/10.3389/fncom.2012.00014/full)
+
+12. Yasuhiko Igarashi, Masafumi Oizumi, Masato Okada (2012)<br>
+Theory of correlation in a network with synaptic depression.<br>
+Physical Review E 85, 016108. [DOI](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.85.016108)
+
+11. Yosuke Otsubo, Kenji Nagata, Masafumi Oizumi, and Masato Okada (2011)<br>
+Influence of synaptic depression on memory storage capacity.<br>
+Journal of the Physical Society of Japan, 80, 084004. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.80.084004)
+
+10. Masafumi Oizumi, Masato Okada, Shun-ichi Amari (2011)<br>
+Information loss associated with imperfect observation and mismatched decoding.<br>
+Frontiers in Computational Neuroscience, 5:9. [DOI](https://www.frontiersin.org/articles/10.3389/fncom.2011.00009/full)
+
+9. Masafumi Oizumi, Keiji Miura, Masato Okada (2010)<br>
+Analytical investigation of the effects of lateral connections on the accuracy of population coding.<br>
+Physical Review E, 81, 051905. [DOI](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.051905)
+
+8. Yosuke Otsubo, Kenji Nagata, Masafumi Oizumi, Masato Okada (2010)<br>
+Instabilities in associative memory model with synaptic depression and switching phenomena among attractors.<br>
+Journal of the Physical Society of Japan, 79, 084002. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.79.084002)
+
+7. Yasuhiko Igarashi, Masafumi Oizumi, Masato Okada (2010)<br>
+Mean field analysis of stochastic neural network models with synaptic depression.<br>
+Journal of the Physical Society of Japan, 79, 084001. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.79.084001)
+
+6. Ryota Satoh\*, Masafumi Oizumi\*, Hokto Kazama, Masato Okada (2010)<br>
+Mechanisms of maximum information preservation in the Drosophila antennal lobe.<br>
+PLoS ONE, 5, e10644, 2010. \*: equal contribution [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010644)
+
+5. Masafumi Oizumi, Toshiyuki Ishii, Kazuya Ishibashi, Toshihiko Hosoya, Masato Okada (2010)<br>
+Mismatched decoding in the brain.<br>
+The Journal of Neuroscience, 30, 4815-4826. [DOI](https://www.jneurosci.org/content/30/13/4815)
+
+4. Masafumi Oizumi, Toshiyuki Ishii, Kazuya Ishibashi, Toshihiko Hosoya, Masato Okada (2009)<br>
+A general framework for investigating how far the decoding process in the brain can be simplified.<br>
+Advances in Neural Information Processing Systems, 21, 1225-1232. [DOI](https://pdfs.semanticscholar.org/6032/34de66bc196b0c1118e5d0b1b58385613f5b.pdf)
+
+3. Yasuhiko Igarashi, Masafumi Oizumi, Yosuke Otsubo, Kenji Nagata, Masato Okada (2009)<br>
+Statistical mechanics of attractor neural network models with synaptic depression.<br>
+Journal of Physics Conference Series, 197, 012018. [DOI](https://iopscience.iop.org/article/10.1088/1742-6596/197/1/012018/pdf)
+
+2. Masafumi Oizumi, Yoichi Miyawaki, Masato Okada (2008)<br>
+Rate reduction for associative memory model in Hodgkin-Huxley-type network.<br>
+Journal of the Physical Society of Japan, 77(6), 064802. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.77.064802)
+
+1. Masafumi Oizumi, Yoichi Miyawaki, Masato Okada (2007)<br>
+Higher order effects on rate reduction for networks of Hodgkin-Huxley neurons.<br>
+Journal of the Physical Society of Japan, 76(4), 044803. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.76.044803)
+
+### Preprints
+
+6. Mikito Ogino, Daiki Sekizawa, Jun Kitazono, and Masafumi Oizumi (2026)<br>
+Designing optimal perturbation inputs for system identification in neuroscience.<br>
+eLife, 15, RP110030 (reviewed preprint). [DOI](https://doi.org/10.7554/eLife.110030.1)
+
+5. Yuria Shimizu, Soh Takahashi, Takato Horii, Masafumi Oizumi (2026)<br>
+Relational Knowledge Distillation Brings DNN Representations Close Enough to Humans to Be Aligned Without Supervision.<br>
+arXiv:2608.27877. [DOI](https://arxiv.org/abs/2608.27877)
+
+4. Yu Togashi, Yuko Yotsumoto, Chihiro Hiramatsu, Naotsugu Tsuchiya, Masafumi Oizumi (2026)<br>
+Robust individual alignment of color qualia structures: toward a structure-based taxonomy of divergent color experiences.<br>
+bioRxiv, 2026.02.13.705699. [DOI](https://doi.org/10.64898/2026.02.13.705699)
+
+3. Ryoichi Watanabe, Jue Wang, Masafumi Oizumi, Noburo Saji, Yusuke Moriguchi (2026)<br>
+Unsupervised alignment reveals shared but locally refined colour qualia structure from toddlerhood to adulthood.<br>
+bioRxiv, 2026.09.14.751604. [DOI](https://doi.org/10.64898/2026.09.14.751604)
+
+2. Masakazu Inoue, Masafumi Oizumi, Shuntaro Sasai (2025)<br>
+Seeing from the inside out: Intrinsic neural dynamics explain individual differences in movie watching.<br>
+bioRxiv, 2025.12.03.692223. [DOI](https://doi.org/10.64898/2025.12.03.692223)
+
+1. Nipun Ravindu Wickramanayaka, Masafumi Oizumi (2025)<br>
+Systematic comparison of color representations between humans and deep neural networks: towards predicting human color perception in a vast color space.<br>
+bioRxiv, 2025.12.10.693611. [DOI](https://doi.org/10.64898/2025.12.10.693611)

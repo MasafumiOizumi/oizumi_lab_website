@@ -1,33 +1,41 @@
-# How to Generate CV
+# Update the English CV
 
-This repository contains a script to automatically generate Masafumi Oizumi's CV from the content files.
+The website content is the source of truth. Update the website first, then regenerate the CV; do not maintain a second biography or publication list in the generated CV files.
 
-## Prerequisites
-- Node.js installed.
-- Dependencies installed (`npm install`).
+## Routine
 
-## How to Run
-Run the following command in the project root:
+1. Update the profile through the website CMS or `content/pi/*.md`, and update papers in `content/publications/*.md`.
+2. From the repository root, run:
 
-```bash
-node cv/generate.js
-```
+   ```bash
+   npm run cv
+   ```
 
-> **Note**: The script attempts to generate the PDF automatically. If it hangs, you can generate the PDF manually by running:
-> ```bash
-> npx md-to-pdf cv/CV_Masafumi_Oizumi.md
-> ```
+3. Open `cv/CV_Masafumi_Oizumi.docx` or `.pdf` and inspect every page. The command also prints a temporary directory containing page images for checking layout.
+4. Review the profile changes and publication status, then commit and push the website changes. Vercel deploys pushes to `main`.
+5. To save the updated CV in Google Docs, ask Codex: "Regenerate my English CV from this repository, save it as a new Google Doc using the Google Drive document import, and verify the exported PDF." Codex should import the checked Word file, read back the native document, and verify its PDF export. The [previous CV](https://docs.google.com/document/d/15UujT0KkB3w_mZJhroka2LfL-sGu2zQ8RV8hO8jnGRE/edit) remains a formatting reference. A local generation command does not write to Google Drive. Replacing an existing Google Doc requires explicit authorization to overwrite its content.
 
-## Output
-The script generates two files in the `cv/` directory:
-- `CV_Masafumi_Oizumi.md`: The Markdown CV.
-- `CV_Masafumi_Oizumi.pdf`: The PDF version (generated via `md-to-pdf`).
+## Sources and formatting
 
-## Features
-- **Data Source**: Pulls data from `content/pi` (profile, grants, etc.) and `content/publications`.
-- **Filtering**: Automatically excludes preprints (arXiv, bioRxiv, PsyArXiv) unless they are marked as "in press" or "accepted".
-- **Sorting**: Sorts publications by year in ascending order (Oldest -> Newest).
-- **Formatting**: Generates a clean Markdown file with full author lists.
+- `content/pi/hero.md`: name, role, affiliation, office address and email. The CV links to the current lab website.
+- `content/pi/education.md`, `work_history.md`, `grants.md`, `fellowships.md`, `awards.md`: complete profile sections. Only appointments on the current website are included.
+- `content/publications/*.md`: all entries in the English publication list, including conference/workshop papers and book chapters. The Japanese publication/interview list is outside this English CV's scope.
+- The reference CV's section sequence and typography are retained: Arial 11 pt body, 26 pt name, 20 pt section headings and 16 pt publication group headings. Education is oldest first; work history follows the website; publications are newest first within each group, with titles breaking year ties.
+- Published and in-press papers precede preprints. Each group has its own descending numbering. Full author lists, contribution notes and clickable source links are included.
 
-## Customization
-To modify the logic (e.g., change filtering rules or sort order), edit `scripts/generate_cv.js`.
+## Publication status
+
+Classification uses the venue in the `journal` field, not the URL. A published paper may still link to arXiv.
+
+- `reviewed preprint`, including an eLife reviewed preprint, belongs to **Preprints**.
+- `in press` or `accepted` belongs to **Published or in Press**, even when the paper links to a preprint.
+- arXiv, bioRxiv, PsyArXiv, medRxiv or another explicitly labeled preprint belongs to **Preprints**.
+- Other journals, published proceedings, workshop papers and book chapters belong to **Published or in Press**.
+- When a paper is published, replace its preprint venue/year/link with the final citation in the existing file; do not create a second record. It moves groups on the next regeneration.
+- An optional frontmatter field `status: published`, `status: in_press` or `status: preprint` overrides automatic classification. Use it only when the venue label alone is insufficient.
+
+## Dependencies and outputs
+
+Install the repository's Node dependencies with `npm install`. Word/PDF creation uses the bundled Codex Documents Python runtime and headless LibreOffice, resolved locally without downloading a PDF generator. On another setup, `CV_PYTHON` can point to a Python executable with `python-docx`, `pdf2image` and Pillow, and `CV_DOCUMENTS_SKILL` can point to the Documents skill folder containing `render_docx.py` and `scripts/google_docs_title_sanitize.py`. That renderer also requires LibreOffice and Poppler.
+
+The command writes Markdown, Word and PDF versions under `cv/`. If rendering fails, it exits with an error; do not treat an older PDF as the current output. For a content-only regeneration without the document runtime, use `npm run cv -- --markdown-only`. For a structured paragraph model used by the Google Docs update procedure, use `node cv/generate.js --json`.
