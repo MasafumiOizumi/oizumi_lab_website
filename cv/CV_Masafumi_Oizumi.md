@@ -74,6 +74,56 @@ IEEE CIS Japan Chapter Young Researcher Award 2007
 
 Japanese Neural Network Society Young Researcher Award 2006
 
+## Selected Publications
+
+12. Daiki Sekizawa, Sosuke Ito, Masafumi Oizumi (2026)<br>
+Koopman Mode Decomposition of Thermodynamic Dissipation in Nonlinear Langevin Dynamics.<br>
+Proceedings of the National Academy of Sciences, 123(25), e2530617123. [DOI](https://doi.org/10.1073/pnas.2530617123)
+
+11. Masafumi Oizumi, Chanseok Lim, Ryota Kanai (2026)<br>
+Principal bundle geometry of qualia: Understanding the quality of consciousness from symmetry.<br>
+PNAS Nexus, 5(9), pgag261. [DOI](https://doi.org/10.1093/pnasnexus/pgag261)
+
+10. Daiki Kiyooka\*, Ikumi Oomoto\*, Jun Kitazono, Yoshihito Saito, Midori Kobayashi, Chie Matsubara, Kenta Kobayashi, Masanori Murayama\*\*, Masafumi Oizumi\*\* (2026)<br>
+Single-cell resolution functional networks during unconsciousness are segregated into spatially intermixed modules.<br>
+Cell Reports, 45(2), 116902. \*, \*\*: equal contribution [DOI](https://doi.org/10.1016/j.celrep.2025.116902)
+
+9. Genji Kawakita\*, Ariel Zeleznikow-Johnston\*, Ken Takeda\*, Naotsugu Tsuchiya\*\*, Masafumi Oizumi\*\* (2025)<br>
+Is my "red" your "red"?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment.<br>
+iScience, 28, 3, 112029. \*, \*\*: equal contribution [DOI](https://www.cell.com/iscience/fulltext/S2589-0042%2825%2900289-5)
+
+8. Ken Takeda\*, Masaru Sasaki\*, Kota Abe, Masafumi Oizumi (2025)<br>
+Unsupervised Alignment in Neuroscience: Introducing a Toolbox for Gromov-Wasserstein Optimal Transport.<br>
+Journal of Neuroscience Methods, 419, 110443. \*: equal contribution. The Toolbox is available on [GitHub](https://oizumi-lab.github.io/GWTune/) [DOI](https://www.sciencedirect.com/science/article/pii/S0165027025000846)
+
+7. Daiki Sekizawa, Sosuke Ito, Masafumi Oizumi (2024)<br>
+Decomposing thermodynamic dissipation of linear Langevin systems via oscillatory modes and its application to neural dynamics.<br>
+Physical Review X 14 (4), 041003. [DOI](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.041003)
+
+6. Jun Kitazono, Yuma Aoki, Masafumi Oizumi (2023)<br>
+Bidirectionally connected cores in a mouse connectome: Towards extracting the brain subnetworks essential for consciousness.<br>
+Cerebral Cortex, 33(4), 1383-1402. [DOI](https://doi.org/10.1093/cercor/bhac143)
+
+5. Shunsuke Kamiya, Genji Kawakita, Shuntaro Sasai, Jun Kitazono, Masafumi Oizumi (2023)<br>
+Optimal Control Costs of Brain State Transitions in Linear Stochastic Systems.<br>
+The Journal of Neuroscience, 43 (2), 270-281. [DOI](https://www.jneurosci.org/content/43/2/270)
+
+4. Masafumi Oizumi, Shun-ichi Amari, Toru Yanagawa, Naotaka Fujii, Naotsugu Tsuchiya (2016)<br>
+Measuring Integrated Information from the Decoding Perspective.<br>
+PLoS Comput Biol, 12(1), e1004654. [DOI](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004654)
+
+3. Masafumi Oizumi, Naotsugu Tsuchiya, Shun-ichi Amari (2016)<br>
+Unified Framework for Information Integration Based on Information Geometry.<br>
+Proceedings of the National Academy of Sciences, 113(51), 14817-14822. [DOI](https://www.pnas.org/content/113/51/14817)
+
+2. Masafumi Oizumi\*, Larissa Albantakis\*, Giulio Tononi (2014)<br>
+From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0.<br>
+PLoS Computational Biology, 10, e1003588. \*: equal contribution [DOI](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003588)
+
+1. Masafumi Oizumi, Toshiyuki Ishii, Kazuya Ishibashi, Toshihiko Hosoya, Masato Okada (2010)<br>
+Mismatched decoding in the brain.<br>
+The Journal of Neuroscience, 30, 4815-4826. [DOI](https://www.jneurosci.org/content/30/13/4815)
+
 ## PUBLICATIONS
 
 ### Published or in Press

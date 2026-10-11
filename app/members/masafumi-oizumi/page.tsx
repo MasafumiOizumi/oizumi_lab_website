@@ -38,6 +38,14 @@ export default async function PIPage() {
     const awards = await getSectionData('awards');
 
     const allPublications = getPublications() as unknown as Publication[];
+    const selectedTitles = new Set<string>(
+        (publications.selected_publications || [])
+            .filter((title: unknown): title is string => typeof title === 'string')
+            .map((title: string) => title.toLowerCase().trim())
+    );
+    const selectedPublications = allPublications
+        .filter(pub => selectedTitles.has(pub.title.toLowerCase().trim()))
+        .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, 'en'));
 
     return (
         <div className="min-h-screen bg-white font-sans text-slate-900 flex flex-col">
@@ -80,11 +88,7 @@ export default async function PIPage() {
                             Selected Publications
                         </h2>
                         <div className="space-y-3" style={{ paddingLeft: '1.5rem' }}>
-                            {publications.selected_publications && publications.selected_publications.map((pubTitle: string, index: number) => {
-                                if (typeof pubTitle !== 'string') return null;
-                                const pub = allPublications.find((p: any) => typeof p.title === 'string' && p.title.toLowerCase().trim() === pubTitle.toLowerCase().trim());
-                                if (!pub) return null;
-
+                            {selectedPublications.map(pub => {
                                 // Format authors
                                 let authors = (pub.authors || '').replace(/,?\s+and\s+([^,]+)$/, ', $1');
                                 if (authors) {
@@ -95,7 +99,7 @@ export default async function PIPage() {
                                 }
 
                                 return (
-                                    <div key={index} className="flex items-start gap-2 text-base leading-relaxed">
+                                    <div key={pub.slug} className="flex items-start gap-2 text-base leading-relaxed">
                                         <span className="text-slate-400 mt-1 shrink-0">•</span>
                                         <div className="text-slate-700 flex-1 min-w-0">
                                             <span className="font-semibold text-slate-900">{authors}</span> ({pub.year}) "{pub.title}"{['.', '?', '!'].includes(pub.title.trim().slice(-1)) ? '' : '.'} <span className="italic text-slate-600">{pub.journal}</span>

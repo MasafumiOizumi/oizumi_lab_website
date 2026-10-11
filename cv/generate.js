@@ -49,6 +49,14 @@ function buildCV() {
         if (pub.link) new URL(pub.link);
     }
     publications.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, 'en'));
+    const selectedTitles = section('publications').selected_publications || [];
+    const selectedKeys = new Set(selectedTitles.map(title => withoutPeriod(title).toLowerCase()));
+    for (const title of selectedTitles) {
+        if (!titles.has(withoutPeriod(title).toLowerCase())) {
+            throw new Error(`Selected publication not found: ${title}`);
+        }
+    }
+    const selected = publications.filter(pub => selectedKeys.has(pub.title.toLowerCase()));
     const published = publications.filter(pub => pub.status !== 'preprint');
     const preprints = publications.filter(pub => pub.status === 'preprint');
     const paragraphs = [];
@@ -70,6 +78,14 @@ function buildCV() {
         }
         paragraphs.push({ kind, text: plain, links });
     };
+    const addPublications = group => group.forEach((pub, index) => {
+        add('pub_start', `${group.length - index}. ${pub.authors} (${pub.year})`);
+        add('pub_title', `${pub.title}${/[?!]$/.test(pub.title) ? '' : '.'}`);
+        let venue = `${pub.journal}.`;
+        if (pub.note) venue += ` ${pub.note}`;
+        if (pub.link) venue += ' DOI';
+        add('pub_end', venue, { link: pub.link, linkText: pub.link ? 'DOI' : '' });
+    });
 
     add('title', `${hero.title}, Ph.D.`);
     add('contact', hero.role);
@@ -95,19 +111,16 @@ function buildCV() {
     for (const fellowship of section('fellowships').fellowships) add('entry', fellowship);
     add('heading', 'Awards');
     for (const award of section('awards').awards) add('entry', award);
+    if (selected.length) {
+        add('heading', 'Selected Publications');
+        addPublications(selected);
+    }
     add('heading', 'PUBLICATIONS');
     for (const [label, group] of [['Published or in Press', published], ['Preprints', preprints]]) {
         add('subheading', label);
-        group.forEach((pub, index) => {
-            add('pub_start', `${group.length - index}. ${pub.authors} (${pub.year})`);
-            add('pub_title', `${pub.title}${/[?!]$/.test(pub.title) ? '' : '.'}`);
-            let venue = `${pub.journal}.`;
-            if (pub.note) venue += ` ${pub.note}`;
-            if (pub.link) venue += ' DOI';
-            add('pub_end', venue, { link: pub.link, linkText: pub.link ? 'DOI' : '' });
-        });
+        addPublications(group);
     }
-    return { paragraphs, published, preprints, counts: { published: published.length, preprints: preprints.length } };
+    return { paragraphs, selected, published, preprints, counts: { selected: selected.length, published: published.length, preprints: preprints.length } };
 }
 
 function markdown(data) {
@@ -144,7 +157,7 @@ function generate() {
     }
     const base = path.join(__dirname, 'CV_Masafumi_Oizumi');
     fs.writeFileSync(`${base}.md`, markdown(data));
-    console.log(`CV: ${data.counts.published} published/in press; ${data.counts.preprints} preprints.`);
+    console.log(`CV: ${data.counts.selected} selected; ${data.counts.published} published/in press; ${data.counts.preprints} preprints.`);
     if (process.argv.includes('--markdown-only')) return;
     const dependencies = path.join(os.homedir(), '.cache/codex-runtimes/codex-primary-runtime/dependencies');
     const python = process.env.CV_PYTHON || path.join(dependencies, 'python/bin/python3');

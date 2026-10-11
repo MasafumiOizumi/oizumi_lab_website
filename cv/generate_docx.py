@@ -57,7 +57,7 @@ def create(data, destination):
             fmt.space_before = Pt(20 if kind == 'heading' else 14)
             fmt.space_after = Pt(10)
             fmt.keep_with_next = True
-            if item['text'] == 'PUBLICATIONS':
+            if item['text'] in ('Selected Publications', 'PUBLICATIONS'):
                 fmt.page_break_before = True
         elif kind in ('entry_start', 'pub_start', 'pub_title'):
             fmt.keep_with_next = True

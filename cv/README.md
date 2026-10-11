@@ -13,12 +13,13 @@ The website content is the source of truth. Update the website first, then regen
 
 3. Open `cv/CV_Masafumi_Oizumi.docx` or `.pdf` and inspect every page. The command also prints a temporary directory containing page images for checking layout.
 4. Review the profile changes and publication status, then commit and push the website changes. Vercel deploys pushes to `main`.
-5. To save the updated CV in Google Docs, ask Codex: "Regenerate my English CV from this repository, save it as a new Google Doc using the Google Drive document import, and verify the exported PDF." Codex should import the checked Word file, read back the native document, and verify its PDF export. The [previous CV](https://docs.google.com/document/d/15UujT0KkB3w_mZJhroka2LfL-sGu2zQ8RV8hO8jnGRE/edit) remains a formatting reference. A local generation command does not write to Google Drive. Replacing an existing Google Doc requires explicit authorization to overwrite its content.
+5. To update the Google Docs CV, ask Codex: "Regenerate my English CV from this repository, update my existing Google Doc in place, and verify the exported PDF." Use the [existing CV](https://docs.google.com/document/d/15UujT0KkB3w_mZJhroka2LfL-sGu2zQ8RV8hO8jnGRE/edit). Codex should read its current structure, apply the requested changes while matching its formatting, then read back the native document and verify its PDF export. A local generation command does not write to Google Drive. A complete rewrite needs explicit authorization to replace all of its contents; a new copy can instead be imported from the checked Word file when requested.
 
 ## Sources and formatting
 
 - `content/pi/hero.md`: name, role, affiliation, office address and email. The CV links to the current lab website.
 - `content/pi/education.md`, `work_history.md`, `grants.md`, `fellowships.md`, `awards.md`: complete profile sections. Only appointments on the current website are included.
+- `content/pi/publications.md`: the same Selected Publications as the profile page, ordered newest first. This section appears before the complete publication list in the CV and does not replace entries in that list.
 - `content/publications/*.md`: all entries in the English publication list, including conference/workshop papers and book chapters. The Japanese publication/interview list is outside this English CV's scope.
 - The reference CV's section sequence and typography are retained: Arial 11 pt body, 26 pt name, 20 pt section headings and 16 pt publication group headings. Education is oldest first; work history follows the website; publications are newest first within each group, with titles breaking year ties.
 - Published and in-press papers precede preprints. Each group has its own descending numbering. Full author lists, contribution notes and clickable source links are included.
