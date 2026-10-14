@@ -128,13 +128,17 @@ The Journal of Neuroscience, 30, 4815-4826. [DOI](https://www.jneurosci.org/con
 
 ### Published or in Press
 
-60. Tamami Nakano, Satoe Awada, Masafumi Oizumi, Daisuke Kuwano, Kazuyo Tanji, Nobumasa Kato, Noburo Saji (2026)<br>
+61. Tamami Nakano, Satoe Awada, Masafumi Oizumi, Daisuke Kuwano, Kazuyo Tanji, Nobumasa Kato, Noburo Saji (2026)<br>
 Atypical Tactile Expressions Using Japanese Ideophones in Adults With Autism Spectrum Disorders.<br>
 Journal of Autism and Developmental Disorders, advance online publication. [DOI](https://doi.org/10.1007/s10803-026-07267-7)
 
-59. Ken Takeda, Masafumi Oizumi, Ryo Karakida (2026)<br>
+60. Ken Takeda, Masafumi Oizumi, Ryo Karakida (2026)<br>
 Continual Learning in Modern Hopfield Networks with an Application to Diffusion Models.<br>
 Advances in Neural Information Processing Systems (NeurIPS), in press. [DOI](https://arxiv.org/abs/2605.27975)
+
+59. Mikito Ogino, Daiki Sekizawa, Jun Kitazono, and Masafumi Oizumi (2026)<br>
+Designing optimal perturbation inputs for system identification in neuroscience.<br>
+eLife, 15, RP110030. [DOI](https://doi.org/10.7554/eLife.110030)
 
 58. Soh Takahashi\*, Masaru Sasaki\*, Ken Takeda, Masafumi Oizumi (2026)<br>
 Investigating Fine- and Coarse-grained Structural Correspondences Between Deep Neural Networks and Human Object Image Similarity Judgments Using Unsupervised Alignment.<br>
@@ -369,10 +373,6 @@ Higher order effects on rate reduction for networks of Hodgkin-Huxley neurons.<b
 Journal of the Physical Society of Japan, 76(4), 044803. [DOI](https://journals.jps.jp/doi/abs/10.1143/JPSJ.76.044803)
 
 ### Preprints
-
-6. Mikito Ogino, Daiki Sekizawa, Jun Kitazono, and Masafumi Oizumi (2026)<br>
-Designing optimal perturbation inputs for system identification in neuroscience.<br>
-eLife, 15, RP110030 (reviewed preprint). [DOI](https://doi.org/10.7554/eLife.110030.1)
 
 5. Yuria Shimizu, Soh Takahashi, Takato Horii, Masafumi Oizumi (2026)<br>
 Relational Knowledge Distillation Brings DNN Representations Close Enough to Humans to Be Aligned Without Supervision.<br>
